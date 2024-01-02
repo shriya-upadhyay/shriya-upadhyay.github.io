@@ -1,3 +1,3 @@
-#Welcome to my personal website!
+# Welcome to my personal website!
 
-###Currently a work in progress
+### Currently a work in progress
