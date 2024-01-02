@@ -6,22 +6,26 @@
 #title {
     position: absolute;
     top: 2%;
+    margin-top: 3%;
 }
 
 .projects {
+    margin-top: 5%;
     display: flex;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px; /* Set a reasonable gap size between items */
+    justify-content: space-evenly; /* This will space out the items evenly */
 }
 
-.first_level_projects {
-    display: flex;
-    justify-content: space-around;
-
-}
 .project_background {
-    background-color: brown;
-    margin: 2%; /* Adds some space between boxes */
-    overflow: auto; /* Ensures content does not overflow */
-    height: 100%;
-    padding: 2%;
+    flex: 1 1 calc(33.333% - 32px); /* Set the flex-grow and flex-shrink */
+  /* Removed the width for now to let flexbox handle the width */
+  height: auto; /* Allow the height to grow with content */
+  background-color: #4b6043;
+  color:  #f2f1ef;
+  padding: 16px; /* Padding inside the boxes */
+  margin-bottom: 16px; /* Space below each item */
+  box-sizing: border-box; /* Include padding and border in the box's size */
+  max-width: 33%;
+  align-items:flex-start;
 }
