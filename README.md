@@ -3,7 +3,7 @@
 ### Note: Currently a work in progress
 
 
-##Setup and Initialization
+## Setup and Initialization
 
 1. Create folder/directory to store web application contents
 2. Open terminal and navigate to the folder/directory that you would like to store the web application contents
@@ -13,7 +13,7 @@
 
 You are now set to run and interact with my web application on your device!
 
-##Running and Interacting
+## Running and Interacting
 
 Run the command 'npm run dev'
 
