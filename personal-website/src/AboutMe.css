@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap');
+
+.about_me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f1ef;
+}
+
+body{
+    background-color: #f2f1ef;
+    overflow: visible;
+}
+
+#title {
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+    left: 5%;
+    font-family: 'Playfair Display', serif;
+    color: #A67564;
+}
+
+#description {
+    position: relative;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 700;    
+    top: 20%;
+    left: 5%;
+    margin-top: 20%;
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    color: #723E31;
+}
+
+#passionate {
+    position: relative;
+    font-size: 1.8rem;
+    text-align: left;
+    top: 35%;
+    margin-top: 3%;
+    left: 5%;
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+    color: #723E31;
+}
+
+.image_presenting {
+    position: relative;
+    display: flex;
+    width: 15%;
+    height: 42%;
+    margin-top: 3%;
+    object-fit: cover;
+    top: 45%;
+    left: 7%;
+    align-self: flex-start;
+}   
+
+#full_para {
+    position: absolute;
+    font-size: 1.3rem;
+    text-align: left;
+    left: 35%;
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    color: #723E31;
+    top: 38%; /* Adjust this value as needed */
+    margin-top: 0; /* Adjust this value as needed */
+    background-color: #f2f1ef;
+
+}
