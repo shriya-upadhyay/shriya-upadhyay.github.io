@@ -2,8 +2,6 @@
 
 body {
   background-color: #f2f1ef;
-  overflow-x: hidden; /* Prevents horizontal scroll */
-  overflow-y: hidden;
   font-family: 'Raleway', sans-serif;
 }
 
