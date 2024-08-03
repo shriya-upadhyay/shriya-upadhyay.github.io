@@ -6,14 +6,14 @@
   
   @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: #A67564; }
+    60% { border-color: #A67564; }
   }
   
   .typing {
-    border-right: 2px solid #A67564; /* The caret */
+    border-right: 0.15rem solid #A67564; /* The caret */
     white-space: nowrap; /* Keeps the content on a single line */
     overflow: hidden; /* Keeps the content clipped to the container size */
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; /* Apply the typing and caret animations */
+    animation: typing 5s steps(30, end), blink-caret .75s step-end infinite; /* Apply the typing and caret animations */
   }
 
 body{
@@ -57,7 +57,7 @@ body{
     display: flex;
     position: absolute;
     top: 18%;
-    left: 12%;
+    left: 5%;
     width: 20%;
     height: 10%;
     z-index: 2;
@@ -167,7 +167,7 @@ body{
 
 #Hi {   
     position: absolute;
-    left: 12%;
+    left: 5%;
     top: 25%;
     color:#A67564;
     font-size: 2rem;
@@ -175,7 +175,7 @@ body{
 
 .line {
     position: absolute;
-    left: 12%;
+    left: 5%;
     top: 35%;
     width: 10%;
     height: 0.3%;
@@ -184,7 +184,7 @@ body{
 #name {
     position: absolute;
     color: #A67564;
-    left: 12%;
+    left: 5%;
     top: 35%;
     font-size: 5rem;
     text-indent: 0;
@@ -198,7 +198,7 @@ body{
 #tagline {
     position: absolute;
     color:#A67564;
-    left: 12%;
+    left: 5%;
     top: 63%;
     font-size: 1.4rem;
 }
@@ -215,7 +215,7 @@ body{
 
 #more {
     position: absolute;
-    left: 12%;
+    left: 5%;
     top: 73%;
     background-color: #723E31;
     color:#f2f1ef

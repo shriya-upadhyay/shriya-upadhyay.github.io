@@ -41,7 +41,7 @@ function Experience() {
     iconStyle={{ background: '#723E31', color: '#fff' }}
     icon={<FaCircle />}
   >
-    <h3 className="vertical-timeline-element-title">AI-Powered VC Deal Sourcing Extern</h3>
+    <h3 className="vertical-timeline-element-title">AI & Data Analytics Extern</h3>
     <h4 className="vertical-timeline-element-subtitle"> igniteXL Ventures</h4>
     <p className='vertical-timeline-element-description'>
        <li> Conducted research using platforms like Crunchbase and the internet to gather data and insights about startup performance to develop a report for igniteXL venture capital team </li>  

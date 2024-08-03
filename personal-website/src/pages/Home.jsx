@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaMedium } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
-import ShriyaPic from './assets/shriyapic.jpg'; // Import the image
+import ShriyaPic from '../assets/shriyapic.jpg'; // Import the image
 import AboutMe from './AboutMe';
 
 
@@ -38,7 +38,7 @@ function Home() {
 
     const ResumeClick = () => {
         // Code to execute on button click
-        window.open('https://drive.google.com/file/d/1oc6KCDiHyqQPBEnB_-8Dn5udL5dfEg7-/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/17xs-iWXROwL5il0SKhN2ABy_hC00IXDE/view?usp=sharing', '_blank');
     };
 
     const aboutRef = useRef(null);
