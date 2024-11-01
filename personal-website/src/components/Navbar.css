@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the left */
+    gap: 2rem; 
+    width: 100%; /* Make sure it takes the full width */
+    padding: 1rem; /* Add some padding for visual separation */
+    position: relative; /* Helps with positioning if needed */
+    z-index: 10; /* Ensures navbar stays on top */
+    left: 70%;
+    top: 0;
+  }
+  
+.navbar-element {
+    color: #4b6043;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+/* Styles for the hamburger icon */
+.hamburger {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 11; /* Ensure it appears on top */
+}
+
+.hamburger div {
+    width: 1.5rem;
+    height: 0.2rem;
+    background-color: #4b6043; /* Hamburger color */
+    margin: 0.2rem 1rem; /* Space between lines */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between; /* Space between hamburger and links */
+    }
+    
+    .navbar-links {
+        display: none; /* Hide links by default */
+        flex-direction: column; /* Stack links vertically */
+        position: absolute;
+        top: 60px; /* Position below the navbar */
+        left: 0; /* Align to the left */
+        background-color: rgba(255, 255, 255, 0.9); /* Background for the dropdown */
+        width: 100%; /* Full width */
+    }
+
+    .navbar.active .navbar-links {
+        display: flex; /* Show links when active */
+    }
+    
+    .hamburger {
+        display: flex; /* Show hamburger icon */
+    }
+}

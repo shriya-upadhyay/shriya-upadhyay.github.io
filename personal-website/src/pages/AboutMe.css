@@ -29,9 +29,8 @@ body{
     font-size: 1.5rem;
     text-align: left;
     font-weight: 700;    
-    top: 5%;
     left: 5%;
-    margin-top: 20%;
+    margin-top: 10%;
     width: 90%;
     font-family: 'Raleway', sans-serif;
     color: #723E31;
@@ -72,5 +71,40 @@ body{
     top: 38%; /* Adjust this value as needed */
     margin-top: 0; /* Adjust this value as needed */
     background-color: #f2f1ef;
+
+}
+
+@media (max-width: 768px) {
+
+    #title {
+        font-size: 2rem;
+        margin-top: 5%;
+    }
+
+    #description {
+        font-size: 1.2rem;
+        margin-top: 15%;
+    }
+
+    #passionate {
+        font-size: 1.5rem;
+        margin-top: 3%;
+    }
+
+    .image_presenting {
+        width: 20%;
+        height: 20%;
+        top: 45%;
+        left: 35%;
+    }
+
+    #full_para {
+        font-size: 1.10rem;
+        left: 5%;
+        width: 90%;
+        top: 38%; /* Adjust this value as needed */
+        margin-top: 0; /* Adjust this value as needed */
+    }
+
 
 }

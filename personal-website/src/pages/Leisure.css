@@ -11,3 +11,41 @@ h2 {
 p {
     color: black;
 }
+
+.tennisimages {
+    width: 25%;
+    height: 17rem;
+    margin-right: 5%;
+}
+
+.foodimages {
+    width: 25%;
+    height: 25rem;
+    margin-right: 5%;
+}
+
+@media (max-width: 768px) {
+    .Activities {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tennisimages{
+        width: 20%;
+        height: 30%;
+    }
+
+    .foodimages{
+        width: 20%;
+        height: 30%;
+    }
+
+    h2 {
+        font-size: 75%;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+}

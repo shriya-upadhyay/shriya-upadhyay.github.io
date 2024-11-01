@@ -22,9 +22,9 @@ function Leisure() {
                         I played both singles and doubles but have always appreciated playing doubles slightly more than singles, especially with my twin sister.
                         We were ranked all-state in my junior year of high school. I don&apos;t play competitively anymore, but I still enjoy spending a few morning or weekend hours hitting the ball around.
                     </p>
-                    <img src={shriya_tennis} alt="Description of image" style= {{width: '25%', height: '17rem', marginRight: '5%'}} />
-                    <img src={shriya_tennis2} alt="Description of image" style= {{width: '25%', height: '17rem',  marginRight: '5%'}} />
-                    <img src={shriya_tennis3} alt="Description of image" style= {{width: '25%', height: '17rem'}} />
+                    <img className="tennisimages" src={shriya_tennis} alt="Description of image" />
+                    <img className="tennisimages" src={shriya_tennis2} alt="Description of image" />
+                    <img className="tennisimages" src={shriya_tennis3} alt="Description of image" />
 
                 </div>
             </div>
@@ -48,9 +48,9 @@ function Leisure() {
                     <p>
                         This title is a bit vague because I couldn&apos;t really find the right word to describe my love for food. I love trying new cuisines, cooking, and baking. See below for some of my favorites!
                     </p>
-                    <img src={foodpic1} alt="Description of image" style= {{width: '25%', height: '25rem', marginRight: '5%'}} />
-                    <img src={foodpic2} alt="Description of image" style= {{width: '25%', height: '25rem', marginRight: '5%'}} />
-                    <img src={foodpic3} alt="Description of image" style= {{width: '25%', height: '25rem'}} />
+                    <img className="foodimages" src={foodpic1} alt="Description of image" />
+                    <img className="foodimages" src={foodpic2} alt="Description of image"  />
+                    <img className="foodimages" src={foodpic3} alt="Description of image" />
 
                 </div>
             </div>

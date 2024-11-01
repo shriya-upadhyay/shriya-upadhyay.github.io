@@ -5,6 +5,7 @@ body {
     
 }
 
+
 .Experience {
     min-height: 180vh;
     min-width: 100%;
@@ -15,7 +16,7 @@ body {
 
 .timeline {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 15%;
     height: 150%;
     width: 100%;
@@ -25,10 +26,23 @@ body {
 .date {
     text-decoration: underline;
     font-weight: 700;
-    color: #4b6043;
+    color: white;
     font-size: 1.2rem;    
 }
 
 .vertical-timeline-element-description {
     text-align: left;
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        position: relative;
+        top: 25%;
+        left: 10%;
+        height: 150%;
+        width: 80%;
+        background-color: #f2f1ef;
+    }
+
+
 }

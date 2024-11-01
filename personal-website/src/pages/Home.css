@@ -16,11 +16,17 @@
     animation: typing 5s steps(30, end), blink-caret .75s step-end infinite; /* Apply the typing and caret animations */
   }
 
-body{
-    background-color: #f2f1ef;
-    overflow: visible;
-    
+  * {
+    box-sizing: border-box; /* Include padding and borders in width/height calculations */
+  }
 
+html, body{
+    max-width: 100%; /* Allow full width */
+    width: 100%;
+    background-color: #f2f1ef;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -30,151 +36,80 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
+    height: 200vh;
+    overflow: hidden;
 }
 
-
-
-.navbar {
-    display: flex;
-    gap: 3rem;
-    position: absolute;
-    top: 3%; 
-    right: 1%;
-    width: 25%;
-    justify-content: space-between; 
-    align-items: center; 
-    
-    
-}
-
-.navbar-element{
-    color: #723E31; 
-    cursor: pointer;
-    z-index: 2;
-}
-
-.hamburger {
-    display: none;
-    font-size: 1rem;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: #723E31;
-    position: absolute;
-    top: 3%;
-    right: 5%;
-    z-index: 3;
-}
 
 .contact-buttons{
     display: flex;
     position: absolute;
     top: 18%;
     left: 5%;
-    width: 20%;
-    height: 10%;
     z-index: 2;
 }
 
 .social-buttons {
+    width: 25%;        /* Increased width */
+    height: 80%;       /* Increased height */
+    border-radius: 50%; /* Makes the button circular */
+    display: flex;
     margin-right: 3%;
     z-index: 3;
-    border-radius: 75%;
-    padding-right: 10%;
-    width: 1rem;
-    height: 50%;
     background-color: #723E31;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
 
 }
 
-#mail {
+.social-buttons svg {
     color: white;
-    font-size: 1.75rem;
-    margin-left: -0.5rem;
-    margin-top: -0.25rem;
+    width: 100%;   /* Set icon width */
+    height: 3rem;  /* Set icon height */
 }
 
-#linkedin {
-    color: white;
-    font-size: 1.75rem;
-    margin-left: -0.5rem;
-    margin-top: -0.25rem;
-
-}
-
-#mail:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-#linkedin:hover {
+.social-buttons:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }
 
 
-
-#github {
-    color: white;
-    font-size: 1.75rem;
-    margin-left: -0.5rem;
-    margin-top: -0.25rem;
-
-}
-
-#github:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
+.profile {
+    position: absolute; /* Ensures child elements can be absolutely positioned */
+    overflow: hidden;  /* This will cut off the blue circle */
+    width: 90%; /* Set this to control the overall width */
+    height: auto; /* Set this to control the overall height */
+    min-height: 100vh;
+    margin: 0;
+    top: 12%;
+    left: 20%;
 }
 
 
-#medium {
-    color: white;
-    font-size: 1.75rem;
-    margin-left: -0.5rem;
-    margin-top: -0.25rem;
-
-}
-
-#medium:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-
-#resume {
-    color: white;
-    font-size: 1.75rem;
-    margin-left: -0.5rem;
-    margin-top: -0.25rem;
-
-}
-
-#resume:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}  
 
 .blueCircle {
     position: absolute;
-    bottom: -5%;
-    left: 45%;
-    width: 100%;
-    height: 200%;
+    left: 50%; 
+    width: 50%;
+    height: 75%;
     border-radius: 50%;
     background-color: #4b6043;
     opacity: 0.5;
     z-index: 1;
+    margin: 0;
+    transform: translateX(-20%);
 }
 
 .image_shriya {
     position: absolute;
-    width: 25%;
-    height: 45%;
+    width: 35%;
+    height: 55%;
     object-fit: cover;
     border-radius: 50%;
-    bottom: 25%;
-    right: 19%;
+    bottom: 33%;
+    right: 18%;
     z-index: 2;
 }
 
@@ -212,7 +147,7 @@ body{
     position: absolute;
     color:#A67564;
     left: 5%;
-    top: 63%;
+    top: 65%;
     font-size: 1.4rem;
 }
 
@@ -229,33 +164,71 @@ body{
 #more {
     position: absolute;
     left: 5%;
-    top: 73%;
+    top: 75%;
     background-color: #723E31;
     color:#f2f1ef
 }
-  
+
 
 @media (max-width: 768px) {
-    /* Navbar becomes a hamburger menu */
-    .navbar {
-        display: none;
-        flex-direction: column;
-        gap: 20px;
-        position: fixed;
-        top: 5%;
-        right: 5%;
-        background-color: #f2f1ef;
-        padding: 20px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        z-index: 4;
+   #name {
+       font-size: 3rem;
+       top: 30%;
+       margin-top: 5%;
+   }
+
+   .line {
+    top: 30%;
+
+   }
+
+   #Hi {
+       top: 20%;
+   }
+
+   #tagline {
+    top: 47%;
+    width: 50%;
+    height: auto;
+   }
+
+   .typing {
+    white-space: normal; /* Allow text to wrap onto the next line */
+    width: 100%; /* Adjust width to fit the container */
+    animation: typing 5s steps(30, end) forwards, blink-caret .75s step-end infinite; /* Apply the typing animation */
     }
 
-    .navbar.open {
-        display: flex;
+    #more {
+        top: 70%;
     }
 
-    .hamburger {
-        display: block;
+    .contact-buttons {
+        top: 15%;
+        width: 50%;   
+        flex-wrap: wrap; 
     }
+
+    .social-buttons {
+        width: 15%;    /* Decreased width for smaller screens */
+        padding: 0.5rem; /* Adjusted padding */
+    }
+
+    .social-buttons svg {
+        width: 2rem;    /* Smaller icon size */
+        height: 2rem;   /* Smaller icon size */
+    }
+
+    #about {
+        top: 80%;
+    }
+
+   
+    
 }
+  
+
+
+    
+
+    
 

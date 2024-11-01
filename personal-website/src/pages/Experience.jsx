@@ -18,6 +18,24 @@ function Experience() {
     className="vertical-timeline-element"
     contentStyle={{ background: '#723E31', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
+    date="June 2024 - August 2024"
+    dateClassName='date'
+    iconStyle={{ background: '#723E31', color: '#fff' }}
+    icon={<FaCircle />}
+  >
+    <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
+    <h4 className="vertical-timeline-element-subtitle">  Kintsugi Global </h4>
+    <p className='vertical-timeline-element-description'>
+       <li> Designed and developed a full-stack web and mobile platform, enabling seamless support for 10+ decentralized applications </li>  
+        <li> Spearheaded the development of an intuitive and scalable crowdfunding feature by leveraging React.js, Node.js, and crypto
+        APIs, enhancing both creator and supporter experience and engagement </li>
+    </p>
+  </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: '#723E31', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
     date="September 2022 - Present"
     dateClassName='date'
     iconStyle={{ background: '#723E31', color: '#fff' }}
@@ -26,6 +44,7 @@ function Experience() {
     <h3 className="vertical-timeline-element-title">CURVE Fellowship Researcher</h3>
     <h4 className="vertical-timeline-element-subtitle"> Center for Undergraduate Research in Viterbi Engineering – Interaction Lab</h4>
     <p className='vertical-timeline-element-description'>
+      <li> Designing and administering a study with 200+ participants and a virtual support group therapy facilitator</li>
        <li> Engineered a web application featuring a ChatGPT API-based chatbot for a 42-participant study to determine the efficacy of an LLM in supporting cognitive behavioral therapy practice for university students </li>  
         <li> Engage in hands-on user research and performed detailed data analysis using thematic and adherence analysis techniques </li>
     </p>
@@ -38,31 +57,14 @@ function Experience() {
     contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
     date="June 2023 - July 2023"
     dateClassName='date'
-    iconStyle={{ background: '#723E31', color: '#fff' }}
+    iconStyle={{ background: '#723E31', color: '#ffff' }}
     icon={<FaCircle />}
   >
     <h3 className="vertical-timeline-element-title">AI & Data Analytics Extern</h3>
     <h4 className="vertical-timeline-element-subtitle"> igniteXL Ventures</h4>
     <p className='vertical-timeline-element-description'>
-       <li> Conducted research using platforms like Crunchbase and the internet to gather data and insights about startup performance to develop a report for igniteXL venture capital team </li>  
-        <li> Produced a concise and impactful investment summary incorporating research insights and recommendations </li>
-    </p>
-  </VerticalTimelineElement>
-
-  <VerticalTimelineElement
-    className="vertical-timeline-element"
-    contentStyle={{ background: '#723E31', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
-    date="January 2023 - April 2023"
-    dateClassName='date'
-    iconStyle={{ background: '#723E31', color: '#fff' }}
-    icon={<FaCircle />}
-  >
-    <h3 className="vertical-timeline-element-title">exploreCSR Researcher</h3>
-    <h4 className="vertical-timeline-element-subtitle"> Center of Computational Media Intelligence</h4>
-    <p className='vertical-timeline-element-description'>
-       <li> Conducted Google-sponsored research on the intersection of human-centered AI and the media humans consume </li>  
-        <li> Experimented with audio, video, and text-based machine learning technologies using T ensorFlow to develop effective models </li>
+       <li> Conducted comprehensive research using platforms like Crunchbase, sifting through over 300+ startup profiles to gather data and insights about startup performance, driving development of a detailed report for the igniteXL venture capital team </li>  
+        <li> Produced impactful investment summary with insights influencing evaluation of 50+ investment opportunities </li>
     </p>
   </VerticalTimelineElement>
 
@@ -78,7 +80,7 @@ function Experience() {
     <h3 className="vertical-timeline-element-title">WebMaster</h3>
     <h4 className="vertical-timeline-element-subtitle"> Center for Undergraduate Research in Viterbi Engineering – Interaction Lab</h4>
     <p className='vertical-timeline-element-description'>
-       <li> Designed and executed timely and necessary user interface updates using HTML and CSS to the Interaction Lab website </li>  
+       <li> Designed and executed timely and necessary user interface updates using HTML and CSS to the <a href="https://uscinteractionlab.web.app/">Interaction Lab </a> website </li>  
     </p>
   </VerticalTimelineElement>
 

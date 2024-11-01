@@ -17,12 +17,6 @@ import AboutMe from './AboutMe';
 function Home() {
     console.log("Home page loaded");
 
-    const [isNavOpen, setIsNavOpen] = useState(false); // State to toggle navbar visibility
-
-    const toggleNav = () => {
-        setIsNavOpen(!isNavOpen); // Toggle navbar visibility on click
-    };
-
     const MailClick = () => {
         // Code to execute on button click
         window.open('mailto:shriyaup@usc.edu', '_blank');
@@ -58,20 +52,17 @@ function Home() {
     return (
         <div className="home">
 
+
         <div className="intro">
 
         <div className="contact-buttons">
 
-        <button className="hamburger" onClick={toggleNav}>
-                    {isNavOpen ? <FaTimes /> : <FaBars />} {/* Toggle between open/close icons */}
-                </button>
 
-        <nav className={`navbar ${isNavOpen ? 'open' : ''}`}>
                     <button onClick={MailClick} className="social-buttons">
                         <IoMdMail id="mail" />
                     </button>
                     <button onClick={LinkedinClick} className="social-buttons">
-                        <FaLinkedin id="linkedin" />
+                        <FaLinkedin id="linkedin"/>
                     </button>
                     <button onClick={GithubClick} className="social-buttons">
                         <FaGithub id="github" />
@@ -82,14 +73,13 @@ function Home() {
                     <button onClick={ResumeClick} className="social-buttons">
                         <IoPerson id="resume" />
                     </button>
-                </nav>
 
         </div>
 
             <p id="Hi"> Hi I'm </p>
             <hr className='line'/>
 
-            <h1 id = "name">Soham <br />Upadhyay </h1>
+            <h1 id = "name">Shriya <br />Upadhyay </h1>
 
             <p className = "typing" id = "tagline"> Computer Science Student @ University of Southern California </p>
 
