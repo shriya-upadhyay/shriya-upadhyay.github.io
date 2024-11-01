@@ -1,8 +1,8 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom';
 import { IoMdMail } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaMedium } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
@@ -15,10 +15,18 @@ import AboutMe from './AboutMe';
 
 
 function Home() {
+    console.log("Home page loaded");
+
+    const [isNavOpen, setIsNavOpen] = useState(false); // State to toggle navbar visibility
+
+    const toggleNav = () => {
+        setIsNavOpen(!isNavOpen); // Toggle navbar visibility on click
+    };
 
     const MailClick = () => {
         // Code to execute on button click
         window.open('mailto:shriyaup@usc.edu', '_blank');
+        console.log("Mail clicked");
     };
     const LinkedinClick = () => {
         // Code to execute on button click
@@ -54,37 +62,34 @@ function Home() {
 
         <div className="contact-buttons">
 
-        <button onClick={MailClick} className="social-buttons" >
-        <IoMdMail id= "mail" />
+        <button className="hamburger" onClick={toggleNav}>
+                    {isNavOpen ? <FaTimes /> : <FaBars />} {/* Toggle between open/close icons */}
+                </button>
 
-        </button>
-
-         <button onClick={LinkedinClick} className="social-buttons" >
-        <FaLinkedin id = "linkedin"/>
-
-        </button>
-
-        <button onClick={GithubClick} className="social-buttons" >
-        <FaGithub id = "github"/>
-
-        </button>
-
-        <button onClick={MediumClick} className="social-buttons" >
-        <FaMedium id = "medium"/>
-
-        </button>
-
-        <button onClick={ResumeClick} className="social-buttons" >
-        <IoPerson id = "resume"/>
-
-        </button>
+        <nav className={`navbar ${isNavOpen ? 'open' : ''}`}>
+                    <button onClick={MailClick} className="social-buttons">
+                        <IoMdMail id="mail" />
+                    </button>
+                    <button onClick={LinkedinClick} className="social-buttons">
+                        <FaLinkedin id="linkedin" />
+                    </button>
+                    <button onClick={GithubClick} className="social-buttons">
+                        <FaGithub id="github" />
+                    </button>
+                    <button onClick={MediumClick} className="social-buttons">
+                        <FaMedium id="medium" />
+                    </button>
+                    <button onClick={ResumeClick} className="social-buttons">
+                        <IoPerson id="resume" />
+                    </button>
+                </nav>
 
         </div>
 
             <p id="Hi"> Hi I'm </p>
             <hr className='line'/>
 
-            <h1 id = "name">Shriya <br />Upadhyay </h1>
+            <h1 id = "name">Soham <br />Upadhyay </h1>
 
             <p className = "typing" id = "tagline"> Computer Science Student @ University of Southern California </p>
 
