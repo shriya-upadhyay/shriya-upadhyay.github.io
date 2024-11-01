@@ -32,6 +32,7 @@ body {
 
 .vertical-timeline-element-description {
     text-align: left;
+    color: white;
 }
 
 @media (max-width: 768px) {
