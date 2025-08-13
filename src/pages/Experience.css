@@ -10,7 +10,7 @@ body {
     min-height: 180vh;
     min-width: 100%;
     background-color: #f2f1ef;
-
+    padding-bottom: 4rem; /* Add space for footer */
 }
 
 #title {
@@ -21,13 +21,15 @@ body {
 
 
 .timeline {
-    position: absolute;
+    position: relative;
     top: 20%;
-    left: 15%;
+    left: 50%;
+    transform: translateX(-50%);
     height: auto;
     min-height: 150%;
-    width: 100%;
+    width: 70%;
     background-color: #f2f1ef;
+    margin-bottom: 2rem; /* Add space before footer */
 }
 
 .date {
@@ -56,10 +58,12 @@ body {
     .timeline {
         position: relative;
         top: 25%;
-        left: 10%;
+        left: 50%;
+        transform: translateX(-50%);
         height: auto;
         min-height: 150%;
         width: 80%;
         background-color: #f2f1ef;
+        margin-bottom: 2rem;
     }
 }

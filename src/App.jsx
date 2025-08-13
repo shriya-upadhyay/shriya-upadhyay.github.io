@@ -10,6 +10,7 @@ import Portfolio from './pages/Portfolio';
 import Experience from './pages/Experience';
 import Leisure from './pages/Leisure';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/leisure" element={<Leisure />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }
