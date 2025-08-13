@@ -13,6 +13,12 @@ body {
 
 }
 
+#title {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #A67564;
+}
+
 
 .timeline {
     position: absolute;
@@ -26,7 +32,7 @@ body {
 .date {
     text-decoration: underline;
     font-weight: 700;
-    color: white;
+    color: #723E31;
     font-size: 1.2rem;    
 }
 

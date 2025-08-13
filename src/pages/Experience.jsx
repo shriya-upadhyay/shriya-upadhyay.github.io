@@ -12,9 +12,25 @@ function Experience() {
 
         <h1 id = "title"> My Experience </h1>
 
-        <VerticalTimeline className="timeline" lineColor='#A67564'>
+  <VerticalTimeline className="timeline" lineColor='#A67564'>
 
-        <VerticalTimelineElement
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: '#723E31', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
+    date="June 2025 - August 2025"
+    dateClassName='date'
+    iconStyle={{ background: '#723E31', color: '#fff' }}
+    icon={<FaCircle />}
+  >
+    <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
+    <h4 className="vertical-timeline-element-subtitle">  JPMorgan Chase </h4>
+    <p className='vertical-timeline-element-description'>
+       <li> Designed a Python tool to support a trading desk </li>  
+    </p>
+  </VerticalTimelineElement>
+    
+  <VerticalTimelineElement
     className="vertical-timeline-element"
     contentStyle={{ background: '#723E31', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #723E31' }}

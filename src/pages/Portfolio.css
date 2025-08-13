@@ -30,6 +30,20 @@
   align-items:flex-start;
 }
 
+.project_background h2 {
+    color: #e8e6e3;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project_background p {
+    color: #e8e6e3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
 
 @media (max-width: 768px) {
     .project_background {

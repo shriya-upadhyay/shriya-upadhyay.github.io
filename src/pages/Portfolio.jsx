@@ -122,6 +122,22 @@ function Portfolio() {
         </div>
 
 
+        {/* Project 8 */}
+
+        
+        <div className="project_background"> 
+
+        <h2 id='project8_title'> Real ID Appointment Scheduler </h2>
+
+        <p id='project8_description'> Wrote a python script that periodically scrapes the NJ MVC website to 
+        identify available appointment slots and sends an email notification to the user. The tech stack included: Python, BeautifulSoup, tmux, and AWS EC2. </p>
+
+        <button onClick={() => {
+      window.open('https://github.com/shriya-upadhyay/real-id-appointment-checker', '_blank');
+    }}> Learn More </button>
+        </div>
+
+
 
         </div>
 

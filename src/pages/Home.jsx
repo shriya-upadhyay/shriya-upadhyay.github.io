@@ -6,7 +6,7 @@ import { FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaMedium } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
-import ShriyaPic from '../assets/shriyapic.jpg'; // Import the image
+import Shriya_Upadhyay_Headshot from '../assets/Shriya_Upadhyay_Headshot.png'; // Import the image
 import AboutMe from './AboutMe';
 
 
@@ -51,54 +51,38 @@ function Home() {
 
     return (
         <div className="home">
-
-
-        <div className="intro">
-
-        <div className="contact-buttons">
-
-
-                    <button onClick={MailClick} className="social-buttons">
-                        <IoMdMail id="mail" />
-                    </button>
-                    <button onClick={LinkedinClick} className="social-buttons">
-                        <FaLinkedin id="linkedin"/>
-                    </button>
-                    <button onClick={GithubClick} className="social-buttons">
-                        <FaGithub id="github" />
-                    </button>
-                    <button onClick={MediumClick} className="social-buttons">
-                        <FaMedium id="medium" />
-                    </button>
-                    <button onClick={ResumeClick} className="social-buttons">
-                        <IoPerson id="resume" />
-                    </button>
-
+          <div className="hero-row">
+            <div className="intro">
+              <div className="contact-buttons">
+                <button onClick={MailClick} className="social-buttons">
+                  <IoMdMail id="mail" />
+                </button>
+                <button onClick={LinkedinClick} className="social-buttons">
+                  <FaLinkedin id="linkedin"/>
+                </button>
+                <button onClick={GithubClick} className="social-buttons">
+                  <FaGithub id="github" />
+                </button>
+                <button onClick={MediumClick} className="social-buttons">
+                  <FaMedium id="medium" />
+                </button>
+                <button onClick={ResumeClick} className="social-buttons">
+                  <IoPerson id="resume" />
+                </button>
+              </div>
+              <p id="Hi"> Hi I'm </p>
+              <hr className='line'/>
+              <h1 id = "name">Shriya <br />Upadhyay </h1>
+              <p className = "typing" id = "tagline"> Computer Science Student @ University of Southern California </p>
+              <button id="more" onClick={scrollToAbout}> Click to learn more! </button>
+            </div>
+            <div className='profile'> 
+              <div className='blueCircle'> </div>
+              <img src={Shriya_Upadhyay_Headshot} alt="Description of image" className='image_shriya' />
+            </div>
+          </div>
+            <AboutMe />
         </div>
-
-            <p id="Hi"> Hi I'm </p>
-            <hr className='line'/>
-
-            <h1 id = "name">Shriya <br />Upadhyay </h1>
-
-            <p className = "typing" id = "tagline"> Computer Science Student @ University of Southern California </p>
-
-            <button id="more" onClick={scrollToAbout}> Click to learn more! </button>
-
-        </div>
-        <div className='profile'> 
-        <div className='blueCircle'> </div>
-
-        <img src={ShriyaPic} alt="Description of image" className='image_shriya' />
-        </div>
-
-        <div ref={aboutRef} id='about'>
-        <AboutMe />
-
-        </div>
-
-        </div>
-        
     )
 
 }
