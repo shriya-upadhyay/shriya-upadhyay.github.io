@@ -24,7 +24,8 @@ body {
     position: absolute;
     top: 20%;
     left: 15%;
-    height: 150%;
+    height: auto;
+    min-height: 150%;
     width: 100%;
     background-color: #f2f1ef;
 }
@@ -41,15 +42,24 @@ body {
     color: white;
 }
 
+/* Ensure the timeline line is visible and extends properly */
+.vertical-timeline::before {
+    background-color: #A67564 !important;
+}
+
+/* Override any default timeline styles that might interfere */
+.vertical-timeline {
+    background-color: transparent !important;
+}
+
 @media (max-width: 768px) {
     .timeline {
         position: relative;
         top: 25%;
         left: 10%;
-        height: 150%;
+        height: auto;
+        min-height: 150%;
         width: 80%;
         background-color: #f2f1ef;
     }
-
-
 }
