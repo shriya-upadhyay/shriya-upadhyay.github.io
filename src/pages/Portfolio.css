@@ -1,55 +1,97 @@
 .Portfolio {
-    overflow: scroll;
+    overflow: auto;
 }
 
-
 #title {
-    position: absolute;
-    top: 2%;
-    margin-top: 3%;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .projects {
-    margin-top: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2%; /* Set a reasonable gap size between items */
-    justify-content: space-evenly; /* This will space out the items evenly */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
 
 .project_background {
-    flex: 1 1 calc(33.333% - 32px); /* Set the flex-grow and flex-shrink */
-  /* Removed the width for now to let flexbox handle the width */
-  height: auto; /* Allow the height to grow with content */
-  background-color: #4b6043;
-  color:  #f2f1ef;
-  padding: 16px; /* Padding inside the boxes */
-  margin-bottom: 16px; /* Space below each item */
-  box-sizing: border-box; /* Include padding and border in the box's size */
-  max-width: 33%;
-  align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    background-color: #4b6043;
+    color: #f2f1ef;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project_background:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
 }
 
 .project_background h2 {
     color: #e8e6e3;
     font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    margin: 0 0 0.75rem 0;
 }
 
 .project_background p {
     color: #e8e6e3;
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 0.95rem;
+    line-height: 1.6;
     margin-bottom: 1rem;
+    flex-grow: 1;
 }
 
-@media (max-width: 768px) {
-    .project_background {
-        flex: 100%; /* Take up the full width */
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.25rem;
+}
+
+.tech-tag {
+    background-color: rgba(242, 241, 239, 0.15);
+    color: #e8e6e3;
+    padding: 0.25rem 0.65rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid rgba(242, 241, 239, 0.3);
+}
+
+.project_background button {
+    background-color: #f2f1ef;
+    color: #4b6043;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.25s ease;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.project_background button:hover {
+    background-color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 900px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
     }
-    #project1_description {
-        width: 10%;
+}
+
+@media (max-width: 600px) {
+    .projects {
+        grid-template-columns: 1fr;
     }
 }

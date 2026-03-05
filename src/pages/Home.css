@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&display=swap');
-@keyframes typing {
-    from { width: 0; }
-    to { width: 40%; }
-  }
-  
   @keyframes blink-caret {
     from, to { border-color: transparent; }
     60% { border-color: #A67564; }
   }
-  
+
   .typing {
-    border-right: 0.15rem solid #A67564; /* The caret */
-    white-space: nowrap; /* Keeps the content on a single line */
-    overflow: hidden; /* Keeps the content clipped to the container size */
-    animation: typing 5s steps(30, end), blink-caret .75s step-end infinite; /* Apply the typing and caret animations */
+    white-space: nowrap;
+  }
+
+  .typing-caret {
+    border-right: 0.15rem solid #A67564;
+    animation: blink-caret .75s step-end infinite;
   }
 
   * {
@@ -43,15 +40,14 @@ html, body{
     justify-content: center;
     align-items: center;
     max-width: 80em;
+    width: 100%;
     gap: 8vw;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem auto;
 }
 
 .intro, .profile {
-    width: auto;
+    flex: 1 1 0;
     min-width: 0;
-    max-width: none;
-    flex: unset;
 }
 
 .contact-buttons {
@@ -139,13 +135,10 @@ html, body{
 }
 
 .profile {
-    flex: 1 1 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    min-width: 320px;
-    max-width: 500px;
     height: 400px;
     margin: 0;
 }
@@ -243,9 +236,8 @@ html, body{
    }
 
    .typing {
-    white-space: normal; /* Allow text to wrap onto the next line */
-    width: 100%; /* Adjust width to fit the container */
-    animation: typing 5s steps(30, end) forwards, blink-caret .75s step-end infinite; /* Apply the typing animation */
+    white-space: normal;
+    width: 100%;
     }
 
     #more {

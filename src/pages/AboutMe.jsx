@@ -10,14 +10,14 @@ function AboutMe() {
                 <div className="aboutMe-text">
                     <h1 id="title">About Me</h1>
                     <h2 id="description">
-                        A senior at USC's Viterbi School of Engineering, studying computer science and specializing in blockchain technology.
+                        Software engineer. USC CS grad. Building in fintech, Web3, and AI.
                     </h2>
                     <p id='full_para'>
-                        I'm pursuing a B.S. in Computer Science with a minor in Business Finance and a specialization in Blockchain. My goal is to leverage my technical expertise and problem-solving skills to develop innovative solutions that address real-world challenges. With a strong foundation in C++, Python, Java, and web technologies (HTML/CSS/JS, ReactJS), I've applied these skills across academic, research, and personal projects.
+                        I graduated from USC's Viterbi School of Engineering in December 2025 with a B.S. in Computer Science. This summer I'm moving to NYC to start as a software engineer in fintech. Right now I'm in a gap period doing what I actually love: building projects, writing, and going deep on Web3 and AI.
                         <br /><br />
-                        My research experience in socially assistive robotics has given me unique insights into the intersection of psychology and technology. This work has not only enhanced my technical capabilities but also deepened my understanding of human-computer interaction and its potential to improve lives.
+                        My research at USC's Interaction Lab focused on socially assistive robotics. I co-authored work on LLM-powered robots designed to support cognitive behavioral therapy homework and presented it at IEEE RO-MAN 2025. On the community side, I served as Head of Engineering at Blockchain at USC, where I also co-organized the Southern California Blockchain Conference each year.
                         <br /><br />
-                        Beyond my academic and professional pursuits, I'm an avid tennis player, podcast enthusiast, and sustainable fashion advocate. I'm excited to continue exploring the frontiers of human-computer interaction through both research and industry opportunities.
+                        Outside of code: I play tennis, cook daily, listen to too many podcasts, and am always planning the next trip.
                     </p>
                 </div>
                 <div className="aboutMe-images">

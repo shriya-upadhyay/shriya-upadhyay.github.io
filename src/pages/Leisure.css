@@ -1,51 +1,65 @@
 .Activities {
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
 }
 
-
-h2 {
-    color: black;
+.Activity {
+    background: #faf9f7;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.3s ease;
 }
 
-p {
-    color: black;
+.Activity:hover {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+}
+
+.activity_title {
+    color: #3d3430;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.Leisure p {
+    color: #5a4e4a;
+    line-height: 1.7;
 }
 
 .tennisimages {
     width: 25%;
     height: 17rem;
     margin-right: 5%;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
 .foodimages {
     width: 25%;
     height: 25rem;
     margin-right: 5%;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
 @media (max-width: 768px) {
-    .Activities {
-        display: flex;
-        flex-direction: column;
+    .tennisimages {
+        width: 45%;
+        height: auto;
     }
 
-    .tennisimages{
-        width: 20%;
-        height: 30%;
+    .foodimages {
+        width: 45%;
+        height: auto;
     }
 
-    .foodimages{
-        width: 20%;
-        height: 30%;
+    .activity_title {
+        font-size: 1.2rem;
     }
 
-    h2 {
-        font-size: 75%;
+    .Leisure p {
+        font-size: 0.9rem;
     }
-
-    p {
-        font-size: 0.75rem;
-    }
-
 }

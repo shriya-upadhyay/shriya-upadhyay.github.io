@@ -23,7 +23,7 @@ function Footer() {
         
         <div className="footer-section">
           <p className="tech-stack">
-            Built with <span className="tech-item">React</span>, <span className="tech-item">TypeScript</span>, and <span className="tech-item">Vite</span>
+            Built with <span className="tech-item">React</span>, <span className="tech-item">JavaScript</span>, and <span className="tech-item">Vite</span>
           </p>
         </div>
         

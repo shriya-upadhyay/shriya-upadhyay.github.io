@@ -1,69 +1,115 @@
 body {
     margin: 0;
-    padding: 0;    
+    padding: 0;
     background-color: #f2f1ef;
-    
 }
 
-
 .Experience {
-    min-height: 180vh;
-    min-width: 100%;
+    min-height: 100vh;
     background-color: #f2f1ef;
-    padding-bottom: 4rem; /* Add space for footer */
+    padding-bottom: 4rem;
 }
 
 #title {
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
     color: #A67564;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-
-.timeline {
-    position: relative;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    height: auto;
-    min-height: 150%;
-    width: 70%;
-    background-color: #f2f1ef;
-    margin-bottom: 2rem; /* Add space before footer */
+.experience-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem 2rem;
 }
 
-.date {
-    text-decoration: underline;
+.exp-card {
+    background: #e8e2db;
+    border: 1px solid rgba(166, 117, 100, 0.22);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.exp-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+    gap: 1rem;
+}
+
+.exp-left {
+    flex: 1;
+    min-width: 0;
+}
+
+.exp-company {
+    font-size: 1.05rem;
     font-weight: 700;
-    color: #723E31;
-    font-size: 1.2rem;    
+    color: #3d3430;
+    margin: 0 0 0.25rem;
+    font-family: 'Playfair Display', serif;
 }
 
-.vertical-timeline-element-description {
-    text-align: left;
-    color: white;
+.exp-title {
+    font-size: 0.9rem;
+    color: #4b6043;
+    font-weight: 600;
+    margin: 0;
+    font-style: normal;
 }
 
-/* Ensure the timeline line is visible and extends properly */
-.vertical-timeline::before {
-    background-color: #A67564 !important;
+.exp-date {
+    font-size: 0.82rem;
+    color: #A67564;
+    font-weight: 500;
+    white-space: nowrap;
+    padding-top: 0.15rem;
+    flex-shrink: 0;
 }
 
-/* Override any default timeline styles that might interfere */
-.vertical-timeline {
-    background-color: transparent !important;
+.exp-bullets {
+    margin: 0;
+    padding-left: 1.25rem;
+    color: #5a4e4a;
+    font-size: 0.88rem;
+    line-height: 1.75;
+}
+
+.exp-bullets li {
+    margin-bottom: 0.2rem;
+}
+
+.exp-bullets a {
+    color: #4b6043;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-    .timeline {
-        position: relative;
-        top: 25%;
-        left: 50%;
-        transform: translateX(-50%);
-        height: auto;
-        min-height: 150%;
-        width: 80%;
-        background-color: #f2f1ef;
-        margin-bottom: 2rem;
+    .exp-header {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .exp-date {
+        white-space: normal;
+    }
+
+    .experience-cards {
+        padding: 0 1rem 2rem;
+    }
+
+    .exp-card {
+        padding: 1.25rem 1.5rem;
     }
 }

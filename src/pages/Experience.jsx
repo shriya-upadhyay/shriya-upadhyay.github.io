@@ -1,115 +1,68 @@
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import { FaCircle } from "react-icons/fa6";
 import './Experience.css'
 
-
-
 function Experience() {
-
     return (
-        <div className='Experience'> 
+        <div className="Experience">
+            <h1 id="title">My Experience</h1>
 
-        <h1 id = "title"> My Experience </h1>
+            <div className="experience-cards">
+                <div className="exp-card">
+                    <h3 className="exp-company">JPMorgan Chase</h3>
+                    <h4 className="exp-title">Software Engineer Intern</h4>
+                    <ul className="exp-bullets">
+                        <li>Designed a Python tool to support a trading desk</li>
+                    </ul>
+                </div>
 
-  <VerticalTimeline className="timeline" lineColor='#A67564'>
+                <div className="exp-card">
+                    <h3 className="exp-company">Blockchain at USC</h3>
+                    <h4 className="exp-title">Head of Engineering</h4>
+                    <ul className="exp-bullets">
+                        <li>Led the engineering team for one of USC's largest technical student organizations</li>
+                        <li>Ran Web3 developer workshops and helped grow the technical community on campus</li>
+                        <li>Co-organized the Southern California Blockchain Conference (SCBC) — a multi-track annual conference and hackathon in Los Angeles</li>
+                    </ul>
+                </div>
 
-  <VerticalTimelineElement
-    className="vertical-timeline-element"
-    contentStyle={{ background: '#723E31', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
-    date="June 2025 - August 2025"
-    dateClassName='date'
-    iconStyle={{ background: '#723E31', color: '#fff' }}
-    icon={<FaCircle />}
-  >
-    <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
-    <h4 className="vertical-timeline-element-subtitle">  JPMorgan Chase </h4>
-    <p className='vertical-timeline-element-description'>
-       <li> Designed a Python tool to support a trading desk </li>  
-    </p>
-  </VerticalTimelineElement>
-    
-  <VerticalTimelineElement
-    className="vertical-timeline-element"
-    contentStyle={{ background: '#723E31', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
-    date="June 2024 - August 2024"
-    dateClassName='date'
-    iconStyle={{ background: '#723E31', color: '#fff' }}
-    icon={<FaCircle />}
-  >
-    <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
-    <h4 className="vertical-timeline-element-subtitle">  Kintsugi Global </h4>
-    <p className='vertical-timeline-element-description'>
-       <li> Designed and developed a full-stack web and mobile platform, enabling seamless support for 10+ decentralized applications </li>  
-        <li> Spearheaded the development of an intuitive and scalable crowdfunding feature by leveraging React.js, Node.js, and crypto
-        APIs, enhancing both creator and supporter experience and engagement </li>
-    </p>
-  </VerticalTimelineElement>
+                <div className="exp-card">
+                    <h3 className="exp-company">Kintsugi Global</h3>
+                    <h4 className="exp-title">Software Engineer Intern</h4>
+                    <ul className="exp-bullets">
+                        <li>Built a full-stack web and mobile platform supporting 10+ decentralized applications</li>
+                        <li>Developed a crowdfunding feature using React.js, Node.js, and crypto APIs, improving both creator and supporter experience</li>
+                    </ul>
+                </div>
 
-        <VerticalTimelineElement
-    className="vertical-timeline-element"
-    contentStyle={{ background: '#723E31', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
-    date="September 2022 - Present"
-    dateClassName='date'
-    iconStyle={{ background: '#723E31', color: '#fff' }}
-    icon={<FaCircle />}
-  >
-    <h3 className="vertical-timeline-element-title">CURVE Fellowship Researcher</h3>
-    <h4 className="vertical-timeline-element-subtitle"> Center for Undergraduate Research in Viterbi Engineering – Interaction Lab</h4>
-    <p className='vertical-timeline-element-description'>
-      <li> Designing and administering a study with 200+ participants and a virtual support group therapy facilitator</li>
-       <li> Engineered a web application featuring a ChatGPT API-based chatbot for a 42-participant study to determine the efficacy of an LLM in supporting cognitive behavioral therapy practice for university students </li>  
-        <li> Engage in hands-on user research and performed detailed data analysis using thematic and adherence analysis techniques </li>
-    </p>
-  </VerticalTimelineElement>
+                <div className='exp-card'>
+                    <h3 className="exp-company">Center for Undergraduate Research in Viterbi Engineering – Interaction Lab</h3>
+                    <h4 className="exp-title">CURVE Fellowship Researcher</h4>
+                    <ul className="exp-bullets">
+                        <li>Co-authored research on LLM-powered socially assistive robots for CBT homework support; presented at IEEE RO-MAN 2025</li>
+                        <li>Designed and administered a study with 200+ participants and a virtual support group therapy facilitator</li>
+                        <li>Engineered a web application with a ChatGPT API-based chatbot for a 42-participant study on LLM efficacy in supporting CBT practice</li>
+                        <li>Conducted user research and data analysis using thematic and adherence analysis techniques</li>
+                    </ul>
+                </div>
 
+                <div className='exp-card'>
+                    <h3 className="exp-company">igniteXL Ventures</h3>
+                    <h4 className="exp-title">AI & Data Analytics Extern</h4>
+                    <ul className="exp-bullets">
+                        <li>Conducted comprehensive research using platforms like Crunchbase, sifting through 300+ startup profiles to gather data and insights about startup performance, driving development of a detailed report for the igniteXL venture capital team</li>
+                        <li>Produced impactful investment summary with insights influencing evaluation of 50+ investment opportunities</li>
+                    </ul>
+                </div>
 
-    <VerticalTimelineElement
-    className="vertical-timeline-element"
-    contentStyle={{ background: '#723E31', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
-    date="June 2023 - July 2023"
-    dateClassName='date'
-    iconStyle={{ background: '#723E31', color: '#ffff' }}
-    icon={<FaCircle />}
-  >
-    <h3 className="vertical-timeline-element-title">AI & Data Analytics Extern</h3>
-    <h4 className="vertical-timeline-element-subtitle"> igniteXL Ventures</h4>
-    <p className='vertical-timeline-element-description'>
-       <li> Conducted comprehensive research using platforms like Crunchbase, sifting through over 300+ startup profiles to gather data and insights about startup performance, driving development of a detailed report for the igniteXL venture capital team </li>  
-        <li> Produced impactful investment summary with insights influencing evaluation of 50+ investment opportunities </li>
-    </p>
-  </VerticalTimelineElement>
-
-  <VerticalTimelineElement
-    className="vertical-timeline-element"
-    contentStyle={{ background: '#723E31', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #723E31' }}
-    date="January 2023 - April 2023"
-    dateClassName="date"
-    iconStyle={{ background: '#723E31', color: '#fff' }}
-    icon={<FaCircle />}
-  >
-    <h3 className="vertical-timeline-element-title">WebMaster</h3>
-    <h4 className="vertical-timeline-element-subtitle"> Center for Undergraduate Research in Viterbi Engineering – Interaction Lab</h4>
-    <p className='vertical-timeline-element-description'>
-       <li> Designed and executed timely and necessary user interface updates using HTML and CSS to the <a href="https://uscinteractionlab.web.app/">Interaction Lab </a> website </li>  
-    </p>
-  </VerticalTimelineElement>
-
-
-  
-
-  </VerticalTimeline>
-  
-
-
-</div>
-    )
-
+                <div className='exp-card'>
+                    <h3 className="exp-company">Center for Undergraduate Research in Viterbi Engineering – Interaction Lab</h3>
+                    <h4 className="exp-title">WebMaster</h4>
+                    <ul className="exp-bullets">
+                        <li>Designed and executed timely and necessary user interface updates using HTML and CSS to the <a href="https://uscinteractionlab.web.app/">Interaction Lab</a> website</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default Experience;

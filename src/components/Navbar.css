@@ -1,13 +1,13 @@
 .navbar {
     display: flex;
-    justify-content: flex-start; /* Aligns items to the left */
-    gap: 2rem; 
-    width: 100%; /* Make sure it takes the full width */
-    padding: 1rem; /* Add some padding for visual separation */
-    position: relative; /* Helps with positioning if needed */
-    z-index: 10; /* Ensures navbar stays on top */
-    left: 70%;
+    justify-content: flex-end;
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: 10;
     top: 0;
+    white-space: nowrap;
   }
   
 .navbar-element {

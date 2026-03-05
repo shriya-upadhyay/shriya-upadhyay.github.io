@@ -1,10 +1,9 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom';
 import { IoMdMail } from "react-icons/io";
-import { FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa6";
-import { FaMedium } from "react-icons/fa";
+import { FaLinkedin, FaBars, FaTimes, FaMedium } from "react-icons/fa";
+import { FaGithub, FaXTwitter } from "react-icons/fa6";
 import { IoPerson } from "react-icons/io5";
 import Shriya_Upadhyay_Headshot from '../assets/Shriya_Upadhyay_Headshot.png'; // Import the image
 import AboutMe from './AboutMe';
@@ -39,9 +38,29 @@ function Home() {
     };
 
     const ResumeClick = () => {
-        // Code to execute on button click
         window.open('https://drive.google.com/file/d/17xs-iWXROwL5il0SKhN2ABy_hC00IXDE/view?usp=sharing', '_blank');
     };
+
+    const XClick = () => {
+        window.open('https://x.com/ushriya19', '_blank');
+    };
+
+
+    const TAGLINE = "Software engineer. USC '25. Building things.";
+    const [typedText, setTypedText] = useState('');
+
+    useEffect(() => {
+        let i = 0;
+        const interval = setInterval(() => {
+            if (i < TAGLINE.length) {
+                setTypedText(TAGLINE.slice(0, i + 1));
+                i++;
+            } else {
+                clearInterval(interval);
+            }
+        }, 75);
+        return () => clearInterval(interval);
+    }, []);
 
     const aboutRef = useRef(null);
 
@@ -69,12 +88,15 @@ function Home() {
                 <button onClick={ResumeClick} className="social-buttons">
                   <IoPerson id="resume" />
                 </button>
+                <button onClick={XClick} className="social-buttons">
+                  <FaXTwitter id="x" />
+                </button>
               </div>
               <p id="Hi"> Hi I'm </p>
               <hr className='line'/>
               <h1 id = "name">Shriya <br />Upadhyay </h1>
-              <p className = "typing" id = "tagline"> Computer Science Student @ University of Southern California </p>
-              <button id="more" onClick={scrollToAbout}> Click to learn more! </button>
+              <p className="typing" id="tagline">{typedText}<span className="typing-caret">&nbsp;</span></p>
+              <button id="more" onClick={scrollToAbout}> About me </button>
             </div>
             <div className='profile'> 
               <div className='blueCircle'> </div>
