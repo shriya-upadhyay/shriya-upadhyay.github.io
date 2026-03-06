@@ -197,19 +197,19 @@ html, body {
     }
     .profile {
         order: -1;
-        height: 220px;
+        height: 160px;
         margin-top: 2rem;
         top: 9.5rem;
         left: 6rem;
     }
     .blueCircle {
-        width: 180px;
-        height: 180px;
+        width: 140px;
+        height: 140px;
         left: 62%;
     }
     .image_shriya {
-        width: 115px;
-        height: 115px;
+        width: 90px;
+        height: 90px;
         left: 62%;
     }
 }
