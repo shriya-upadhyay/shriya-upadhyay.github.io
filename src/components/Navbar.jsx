@@ -12,6 +12,10 @@ const Navbar = () => {
         setIsActive(!isActive);
     };
 
+    const closeNavbar = () => {
+        setIsActive(false);
+    };
+
     return (
         <nav className={`navbar ${isActive ? 'active' : ''}`}>
             <div className="hamburger" onClick={toggleNavbar}>
@@ -20,11 +24,11 @@ const Navbar = () => {
                 <div></div>
             </div>
             <div className={`navbar-links ${isActive ? 'active' : ''}`}>
-                <Link to="/" className="navbar-element">Home</Link>
-                <Link to="/experience" className="navbar-element">Experience</Link>
-                <Link to="/portfolio" className="navbar-element">Portfolio</Link>
-                <Link to="/writing" className="navbar-element">Writing</Link>
-                <Link to="/leisure" className="navbar-element">Outside the Code</Link>
+                <Link to="/" className="navbar-element" onClick={closeNavbar}>Home</Link>
+                <Link to="/experience" className="navbar-element" onClick={closeNavbar}>Experience</Link>
+                <Link to="/portfolio" className="navbar-element" onClick={closeNavbar}>Portfolio</Link>
+                <Link to="/writing" className="navbar-element" onClick={closeNavbar}>Writing</Link>
+                <Link to="/leisure" className="navbar-element" onClick={closeNavbar}>Outside the Code</Link>
             </div>
             <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
                 {theme === 'dark' ? <FaSun /> : <FaMoon />}
