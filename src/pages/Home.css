@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&display=swap');
-  @keyframes blink-caret {
+
+@keyframes blink-caret {
     from, to { border-color: transparent; }
-    60% { border-color: #A67564; }
-  }
+    60% { border-color: var(--accent); }
+}
 
-  .typing {
+.typing {
     white-space: nowrap;
-  }
+}
 
-  .typing-caret {
-    border-right: 0.15rem solid #A67564;
+.typing-caret {
+    border-right: 0.15rem solid var(--accent);
     animation: blink-caret .75s step-end infinite;
-  }
+}
 
-  * {
-    box-sizing: border-box; /* Include padding and borders in width/height calculations */
-  }
+* {
+    box-sizing: border-box;
+}
 
-html, body{
-    max-width: 100%; 
-    background-color: #f2f1ef;
+html, body {
+    max-width: 100%;
+    background-color: var(--bg);
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -66,7 +67,7 @@ html, body{
     display: flex;
     margin: 0;
     z-index: 3;
-    background-color: #723E31;
+    background-color: var(--accent-dark);
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -83,12 +84,12 @@ html, body{
 
 .social-buttons:hover {
     transform: scale(1.1) translateY(-2px);
-    background-color: #8B4C3B;
-    box-shadow: 0 5px 15px rgba(114, 62, 49, 0.3);
+    background-color: var(--accent-hover);
+    box-shadow: 0 5px 15px var(--shadow-btn);
 }
 
 #Hi {
-    color: #A67564;
+    color: var(--accent);
     font-size: 1.3rem;
     margin: 0;
 }
@@ -96,13 +97,13 @@ html, body{
 .line {
     width: 40px;
     height: 3px;
-    background-color: #A67564;
+    background-color: var(--accent);
     margin: 0.5rem 0 0.5rem 0;
     border: none;
 }
 
 #name {
-    color: #A67564;
+    color: var(--accent);
     font-size: 3.5rem;
     text-align: left;
     font-family: 'Playfair Display', serif;
@@ -111,14 +112,14 @@ html, body{
 }
 
 #tagline {
-    color: #A67564;
+    color: var(--accent);
     font-size: 1.2rem;
     margin: 0 0 1.5rem 0;
 }
 
 #more {
-    background-color: #723E31;
-    color: #f2f1ef;
+    background-color: var(--accent-dark);
+    color: var(--bg);
     padding: 12px 24px;
     border-radius: 25px;
     transition: all 0.3s ease;
@@ -129,9 +130,9 @@ html, body{
 }
 
 #more:hover {
-    background-color: #8B4C3B;
+    background-color: var(--accent-hover);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(114, 62, 49, 0.3);
+    box-shadow: 0 5px 15px var(--shadow-btn);
 }
 
 .profile {
@@ -150,7 +151,7 @@ html, body{
     width: 320px;
     height: 320px;
     border-radius: 50%;
-    background-color: #4b6043;
+    background-color: var(--accent-green);
     opacity: 0.5;
     z-index: 1;
     transform: translate(-50%, -50%);
@@ -181,7 +182,6 @@ html, body{
     transform: translate(-50%, -50%) scale(1.02);
     box-shadow: 0 15px 30px rgba(0,0,0,0.15);
 }
-
 
 @media (max-width: 900px) {
     .hero-row {
@@ -214,63 +214,28 @@ html, body{
 }
 
 @media (max-width: 768px) {
-   #name {
-       font-size: 3rem;
-       top: 30%;
-       margin-top: 5%;
-   }
-
-   .line {
-    top: 30%;
-
-   }
-
-   #Hi {
-       top: 20%;
-   }
-
-   #tagline {
-    top: 47%;
-    width: 50%;
-    height: auto;
-   }
-
-   .typing {
-    white-space: normal;
-    width: 100%;
+    #name {
+        font-size: 3rem;
+        margin-top: 5%;
     }
-
-    #more {
-        top: 70%;
+    #tagline {
+        width: 100%;
+        height: auto;
     }
-
+    .typing {
+        white-space: normal;
+        width: 100%;
+    }
     .contact-buttons {
-        top: 15%;
-        width: 50%;   
-        flex-wrap: wrap; 
+        width: 100%;
+        flex-wrap: wrap;
     }
-
     .social-buttons {
-        width: 15%;    /* Decreased width for smaller screens */
-        padding: 0.5rem; /* Adjusted padding */
+        width: 42px;
+        height: 42px;
     }
-
     .social-buttons svg {
-        width: 2rem;    /* Smaller icon size */
-        height: 2rem;   /* Smaller icon size */
+        width: 20px;
+        height: 20px;
     }
-
-    #about {
-        top: 80%;
-    }
-
-   
-    
 }
-  
-
-
-    
-
-    
-

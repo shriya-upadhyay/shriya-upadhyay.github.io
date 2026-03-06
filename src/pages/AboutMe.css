@@ -2,9 +2,10 @@
 
 .aboutMe {
     width: 100%;
-    background-color: #f2f1ef;
+    background-color: var(--bg);
     padding: 2rem 0;
     margin-top: 0;
+    transition: background-color 0.3s ease;
 }
 
 .aboutMe-row {
@@ -21,13 +22,13 @@
     flex: 2;
     display: flex;
     flex-direction: column;
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
 .aboutMe #title {
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
-    color: #A67564;
+    color: var(--accent);
     margin: 0;
     padding: 0;
     text-align: left;
@@ -36,7 +37,7 @@
 
 #description, #passionate {
     font-size: 1.2rem;
-    color: #723E31;
+    color: var(--accent-dark);
     font-family: 'Raleway', sans-serif;
     margin: 0;
     text-align: left;
@@ -49,7 +50,7 @@
 
 #full_para {
     font-size: 1.1rem;
-    color: #723E31;
+    color: var(--accent-dark);
     font-family: 'Raleway', sans-serif;
     line-height: 1.7;
     text-align: left;
@@ -68,7 +69,7 @@
     height: 240px;
     object-fit: cover;
     border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+    box-shadow: 0 6px 18px var(--shadow-sm);
     transition: transform 0.3s;
 }
 

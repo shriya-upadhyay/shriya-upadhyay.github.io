@@ -14,7 +14,6 @@ import AboutMe from './AboutMe';
 
 
 function Home() {
-    console.log("Home page loaded!!");
 
     const MailClick = () => {
         // Code to execute on button click

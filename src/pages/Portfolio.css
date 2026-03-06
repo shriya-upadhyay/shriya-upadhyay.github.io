@@ -16,18 +16,18 @@
 .project_background {
     display: flex;
     flex-direction: column;
-    background-color: #4b6043;
+    background-color: var(--accent-green);
     color: #f2f1ef;
     padding: 24px;
     box-sizing: border-box;
     border-radius: 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 16px var(--shadow-sm);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project_background:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 12px 32px var(--shadow-md);
 }
 
 .project_background h2 {
@@ -64,8 +64,8 @@
 }
 
 .project_background button {
-    background-color: #f2f1ef;
-    color: #4b6043;
+    background-color: var(--bg);
+    color: var(--accent-green);
     padding: 8px 20px;
     border-radius: 20px;
     border: none;

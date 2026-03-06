@@ -1,19 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f2f1ef;
+    background-color: var(--bg);
 }
 
 .Experience {
     min-height: 100vh;
-    background-color: #f2f1ef;
+    background-color: var(--bg);
     padding-bottom: 4rem;
+    transition: background-color 0.3s ease;
 }
 
 #title {
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
-    color: #A67564;
+    color: var(--accent);
     text-align: center;
     padding-top: 2rem;
     margin-bottom: 2rem;
@@ -29,15 +30,15 @@ body {
 }
 
 .exp-card {
-    background: #e8e2db;
-    border: 1px solid rgba(166, 117, 100, 0.22);
+    background: var(--card-bg);
+    border: 1px solid var(--border);
     border-radius: 16px;
     padding: 1.5rem 2rem;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .exp-card:hover {
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 6px 20px var(--shadow-sm);
 }
 
 .exp-header {
@@ -56,14 +57,14 @@ body {
 .exp-company {
     font-size: 1.05rem;
     font-weight: 700;
-    color: #3d3430;
+    color: var(--text-primary);
     margin: 0 0 0.25rem;
     font-family: 'Playfair Display', serif;
 }
 
 .exp-title {
     font-size: 0.9rem;
-    color: #4b6043;
+    color: var(--accent-green);
     font-weight: 600;
     margin: 0;
     font-style: normal;
@@ -71,7 +72,7 @@ body {
 
 .exp-date {
     font-size: 0.82rem;
-    color: #A67564;
+    color: var(--accent);
     font-weight: 500;
     white-space: nowrap;
     padding-top: 0.15rem;
@@ -81,7 +82,7 @@ body {
 .exp-bullets {
     margin: 0;
     padding-left: 1.25rem;
-    color: #5a4e4a;
+    color: var(--text-secondary);
     font-size: 0.88rem;
     line-height: 1.75;
 }
@@ -91,7 +92,7 @@ body {
 }
 
 .exp-bullets a {
-    color: #4b6043;
+    color: var(--accent-green);
     text-decoration: underline;
 }
 

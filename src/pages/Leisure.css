@@ -1,3 +1,18 @@
+.Leisure {
+    background-color: var(--bg);
+    min-height: 100vh;
+    transition: background-color 0.3s ease;
+}
+
+.Leisure #title {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: var(--accent);
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 0;
+}
+
 .Activities {
     display: flex;
     flex-direction: column;
@@ -5,54 +20,59 @@
 }
 
 .Activity {
-    background: #faf9f7;
+    background: var(--card-bg-light);
     border-radius: 20px;
     padding: 2rem;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
-    transition: box-shadow 0.3s ease;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 16px var(--shadow-sm);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .Activity:hover {
-    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 28px var(--shadow-md);
 }
 
 .activity_title {
-    color: #3d3430;
+    color: var(--text-primary);
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     margin: 0 0 1rem 0;
 }
 
 .Leisure p {
-    color: #5a4e4a;
+    color: var(--text-secondary);
     line-height: 1.7;
+    margin: 0 0 1.25rem;
 }
 
-.tennisimages {
-    width: 25%;
-    height: 17rem;
-    margin-right: 5%;
-    border-radius: 12px;
-    object-fit: cover;
+/* Image grid — replaces raw float/inline images */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 0.5rem;
 }
 
-.foodimages {
-    width: 25%;
-    height: 25rem;
-    margin-right: 5%;
-    border-radius: 12px;
+.activity-img {
+    width: 100%;
+    height: 220px;
     object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.activity-img:hover {
+    transform: scale(1.02);
 }
 
 @media (max-width: 768px) {
-    .tennisimages {
-        width: 45%;
-        height: auto;
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .foodimages {
-        width: 45%;
-        height: auto;
+    .activity-img {
+        height: 160px;
     }
 
     .activity_title {
@@ -61,5 +81,11 @@
 
     .Leisure p {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-grid {
+        grid-template-columns: 1fr;
     }
 }
