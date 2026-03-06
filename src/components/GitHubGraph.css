@@ -1,0 +1,173 @@
+/* ── GitHub Graph Cell Colors ── */
+:root {
+    --gh-0: #e8e2db;   /* matches card-bg — empty cells blend in */
+    --gh-1: #bdd1b8;
+    --gh-2: #8eb68a;
+    --gh-3: #5d8758;
+    --gh-4: #3a4f33;
+}
+
+[data-theme="dark"] {
+    --gh-0: #2e2620;   /* matches dark card-bg */
+    --gh-1: #2d4029;
+    --gh-2: #3f5c3a;
+    --gh-3: #547a4e;
+    --gh-4: #8ca882;
+}
+
+/* ── Wrapper ── */
+.gh-graph {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 1.75rem;
+    background: var(--card-bg);
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    width: 100%;
+}
+
+/* ── Header ── */
+.gh-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.gh-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: 0.01em;
+}
+
+.gh-count {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+}
+
+/* ── Body (day labels + grid) ── */
+.gh-body {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+/* Day-of-week labels */
+.gh-days {
+    display: grid;
+    grid-template-rows: repeat(7, 11px);
+    gap: 2px;
+    padding-top: 20px; /* aligns with grid rows (below month label row) */
+    flex-shrink: 0;
+}
+
+.gh-day-label {
+    font-size: 9px;
+    line-height: 11px;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    padding-right: 4px;
+    display: flex;
+    align-items: center;
+}
+
+/* Right side: months + grid + legend */
+.gh-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+/* Month labels */
+.gh-months {
+    position: relative;
+    height: 18px;
+}
+
+.gh-month-label {
+    position: absolute;
+    font-size: 9px;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    top: 4px;
+}
+
+/* Contribution grid */
+.gh-grid {
+    display: grid;
+    grid-template-rows: repeat(7, 11px);
+    grid-auto-flow: column;
+    grid-auto-columns: 11px;
+    gap: 2px;
+}
+
+/* Cells */
+.gh-cell {
+    width: 11px;
+    height: 11px;
+    border-radius: 2px;
+    cursor: default;
+    transition: opacity 0.12s;
+}
+
+.gh-grid .gh-cell {
+    cursor: pointer;
+}
+
+.gh-grid .gh-cell:hover {
+    opacity: 0.75;
+}
+
+.gh-cell.lv0 { background: var(--gh-0); }
+.gh-cell.lv1 { background: var(--gh-1); }
+.gh-cell.lv2 { background: var(--gh-2); }
+.gh-cell.lv3 { background: var(--gh-3); }
+.gh-cell.lv4 { background: var(--gh-4); }
+
+/* Legend */
+.gh-legend {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 6px;
+    justify-content: flex-end;
+}
+
+.gh-legend-label {
+    font-size: 9px;
+    color: var(--text-secondary);
+    margin: 0 2px;
+}
+
+/* Tooltip (rendered via portal into document.body) */
+.gh-tooltip {
+    position: fixed;
+    background: var(--text-primary);
+    color: var(--bg);
+    padding: 6px 10px;
+    border-radius: 7px;
+    font-size: 0.72rem;
+    pointer-events: none;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    white-space: nowrap;
+    box-shadow: 0 3px 10px var(--shadow-md);
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+    .gh-graph {
+        padding: 1.25rem 1rem;
+    }
+    .gh-header {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+}

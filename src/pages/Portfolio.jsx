@@ -1,4 +1,6 @@
 import './Portfolio.css';
+import GitHubGraph from '../components/GitHubGraph';
+
 
 const projects = [
     {
@@ -55,6 +57,7 @@ function Portfolio() {
     return (
         <div className='Portfolio'>
             <h1 id="title">My Projects</h1>
+            <GitHubGraph />
             <div className='projects'>
                 {projects.map((project, index) => (
                     <div className="project_background" key={index}>

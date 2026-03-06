@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "fetch-medium": "node scripts/fetch-medium.js",
+    "fetch-github": "node scripts/fetch-github.js",
+    "fetch-spotify": "node scripts/fetch-spotify.js",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

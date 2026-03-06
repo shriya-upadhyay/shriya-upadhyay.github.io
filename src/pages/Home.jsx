@@ -102,7 +102,7 @@ function Home() {
               <img src={Shriya_Upadhyay_Headshot} alt="Description of image" className='image_shriya' />
             </div>
           </div>
-            <AboutMe />
+          <AboutMe />
         </div>
     )
 

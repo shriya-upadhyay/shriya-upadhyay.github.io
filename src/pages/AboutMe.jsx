@@ -1,8 +1,7 @@
 import './AboutMe.css';
 import React from 'react';
-import PresentingPic from '../assets/shriya_presenting_pic.jpg'; 
+import PresentingPic from '../assets/shriya_presenting_pic.jpg';
 import ShriyaSpeaking from '../assets/ShriyaSpeaking.png';
-
 function AboutMe() {
     return (
         <div className="aboutMe">

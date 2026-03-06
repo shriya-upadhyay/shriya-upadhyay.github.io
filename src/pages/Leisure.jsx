@@ -1,5 +1,6 @@
 import './Leisure.css';
 import React from 'react';
+import SpotifyWidget from '../components/SpotifyWidget';
 import shriya_tennis from '../assets/shriya_tennis.jpg';
 import shriya_tennis2 from '../assets/shriya_tennis2.jpg';
 import shriya_tennis3 from '../assets/shriya_tennis3.jpg';
@@ -33,16 +34,7 @@ function Leisure() {
                         <p>
                             Chronic playlist maker. There&apos;s one for every mood and situation, and I take this very seriously. My default is indie/alternative rock, but I drift into pop, country, and Bollywood pretty regularly. I also listen to podcasts daily. Check out what I&apos;ve been listening to below:
                         </p>
-                        <iframe
-                            style={{ borderRadius: "12px" }}
-                            src="https://open.spotify.com/embed/playlist/37i9dQZF1Epqgu9PGrCY89?utm_source=generator&theme=0"
-                            width="100%"
-                            height="152"
-                            frameBorder="0"
-                            allowFullScreen=""
-                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                            loading="lazy"
-                        ></iframe>
+                        <SpotifyWidget />
                     </div>
                 </div>
 

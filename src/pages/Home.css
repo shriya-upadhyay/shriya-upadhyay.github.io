@@ -208,6 +208,12 @@ html, body {
     }
 }
 
+.home-github-graph {
+    max-width: 80em;
+    width: 100%;
+    margin: 0 auto 2rem auto;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
