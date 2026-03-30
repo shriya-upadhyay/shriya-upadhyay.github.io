@@ -1,19 +1,5 @@
 [
   {
-    "title": "Real Man",
-    "artist": "beabadoobee",
-    "album": "This Is How Tomorrow Moves",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e027d9a2e7835a178df7b0153aa",
-    "url": "https://open.spotify.com/track/0OpC8hRrbsh24taKOsQBEX"
-  },
-  {
-    "title": "Love Potions",
-    "artist": "BJ Lips, princess paparazzi",
-    "album": "Cum n Cocaine",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02afe31aa89995bd44ba17457d",
-    "url": "https://open.spotify.com/track/4yMMsS5QaEcsHZkKwdEyLv"
-  },
-  {
     "title": "Highschool Lover",
     "artist": "Air",
     "album": "The Virgin Suicides (Original Motion Picture Score)",
@@ -35,10 +21,24 @@
     "url": "https://open.spotify.com/track/1sA1DhT0bLyeICf8NalPS7"
   },
   {
-    "title": "so american",
-    "artist": "Olivia Rodrigo",
-    "album": "GUTS (spilled)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e024063d624ebf8ff67bc3701ee",
-    "url": "https://open.spotify.com/track/5Jh1i0no3vJ9u4deXkb4aV"
+    "title": "Girl You Loud",
+    "artist": "Chris Brown, Tyga",
+    "album": "Fan of A Fan The Album (Expanded Edition)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02aee727756d5fec0de96dc6d9",
+    "url": "https://open.spotify.com/track/6dRVOzSxLqRdqUjc9mctGg"
+  },
+  {
+    "title": "Sparks Fly",
+    "artist": "Taylor Swift",
+    "album": "Speak Now (Deluxe Package)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02e1bc852a04501952c765d5cd",
+    "url": "https://open.spotify.com/track/09cM9BjyNFizKUOXh6j9rT"
+  },
+  {
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "album": "÷ (Deluxe)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02ba5db46f4b838ef6027e6f96",
+    "url": "https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v"
   }
 ]
