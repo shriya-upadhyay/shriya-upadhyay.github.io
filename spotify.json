@@ -7,20 +7,6 @@
     "url": "https://open.spotify.com/track/6dRVOzSxLqRdqUjc9mctGg"
   },
   {
-    "title": "Free Now",
-    "artist": "Gracie Abrams",
-    "album": "The Secret of Us",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e024ba1c73e08db2c003a78e148",
-    "url": "https://open.spotify.com/track/6nN8W5zHOii0P61I8eSdR3"
-  },
-  {
-    "title": "Sparks Fly",
-    "artist": "Taylor Swift",
-    "album": "Speak Now (Deluxe Package)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02e1bc852a04501952c765d5cd",
-    "url": "https://open.spotify.com/track/09cM9BjyNFizKUOXh6j9rT"
-  },
-  {
     "title": "Brokey",
     "artist": "Latto",
     "album": "Brokey",
@@ -40,5 +26,19 @@
     "album": "i like the way you kiss me (burnt)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02545b91b453024f4be8c72da0",
     "url": "https://open.spotify.com/track/7FKLbfLP8JK1MXKRrYx4Kd"
+  },
+  {
+    "title": "FA9LA",
+    "artist": "Flipperachi",
+    "album": "فصلة",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e023d8df7193d625455be369fc3",
+    "url": "https://open.spotify.com/track/23p1uP74XiVYCXjPP23Kz7"
+  },
+  {
+    "title": "Ramba Ho",
+    "artist": "Shashwat Sachdev, Madhubanti Bagchi, Bappi Lahiri, Indiwar",
+    "album": "Dhurandhar",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02c53e5adf9f81693d62f98019",
+    "url": "https://open.spotify.com/track/3Zg5ENFvbucf41iPRvPcHn"
   }
 ]
