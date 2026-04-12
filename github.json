@@ -1,45 +1,6 @@
 {
-  "totalContributions": 232,
+  "totalContributions": 237,
   "weeks": [
-    {
-      "days": [
-        {
-          "date": "2025-04-06",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-04-07",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-04-08",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-04-09",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-04-10",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-04-11",
-          "count": 3,
-          "level": 1
-        },
-        {
-          "date": "2025-04-12",
-          "count": 0,
-          "level": 0
-        }
-      ]
-    },
     {
       "days": [
         {
@@ -2063,6 +2024,15 @@
         },
         {
           "date": "2026-04-11",
+          "count": 5,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "2026-04-12",
           "count": 0,
           "level": 0
         }
