@@ -41,7 +41,7 @@ function extractExcerpt(item) {
 (async () => {
     try {
         console.log('Fetching Medium posts...');
-        const feed = await parser.parseURL('https://medium.com/@shriyaupadhyay3');
+        const feed = await parser.parseURL('https://medium.com/feed/@shriyaupadhyay3');
 
         const posts = feed.items.slice(0, 6).map(item => ({
             title: item.title || '',
