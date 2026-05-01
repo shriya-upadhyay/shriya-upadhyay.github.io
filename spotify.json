@@ -7,6 +7,13 @@
     "url": "https://open.spotify.com/track/2OzhQlSqBEmt7hmkYxfT6m"
   },
   {
+    "title": "Help I'm Alive",
+    "artist": "Metric",
+    "album": "Fantasies",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0280b25efe77045baa9bffd7e1",
+    "url": "https://open.spotify.com/track/0cahtHEywK64NSWqm2SDTi"
+  },
+  {
     "title": "FA9LA",
     "artist": "Flipperachi",
     "album": "فصلة",
@@ -21,24 +28,17 @@
     "url": "https://open.spotify.com/track/3RAtQezT066Fhi2NC0VDNZ"
   },
   {
+    "title": "Take Care",
+    "artist": "Beach House",
+    "album": "Teen Dream",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a9a2f4dbb6ce31157d2e4783",
+    "url": "https://open.spotify.com/track/2aydv0bsXbIZg3Sk2S6u86"
+  },
+  {
     "title": "Mis",
     "artist": "Alex G",
     "album": "Rules",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02b31bbd736515703f87ca21db",
     "url": "https://open.spotify.com/track/1llY5gzWqdAjm1Hscr4kwn"
-  },
-  {
-    "title": "Ramba Ho",
-    "artist": "Shashwat Sachdev, Madhubanti Bagchi, Bappi Lahiri, Indiwar",
-    "album": "Dhurandhar",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02c53e5adf9f81693d62f98019",
-    "url": "https://open.spotify.com/track/3Zg5ENFvbucf41iPRvPcHn"
-  },
-  {
-    "title": "Jaiye Sajana",
-    "artist": "Shashwat Sachdev, Jasmine Sandlas, Satinder Sartaaj",
-    "album": "Dhurandhar The Revenge",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e024c3eeb98521e02693a46d6db",
-    "url": "https://open.spotify.com/track/6xwKNAUHeo2DbWNAPi8aEy"
   }
 ]
