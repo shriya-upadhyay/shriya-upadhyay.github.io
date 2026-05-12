@@ -7,6 +7,13 @@
     "url": "https://open.spotify.com/track/0cahtHEywK64NSWqm2SDTi"
   },
   {
+    "title": "I Saw Your Face",
+    "artist": "Malcolm Todd",
+    "album": "I Saw Your Face",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e021e0d253b26e17c0b059471dc",
+    "url": "https://open.spotify.com/track/3cLBx0lEWPKSM99hx5RVcx"
+  },
+  {
     "title": "Take Care",
     "artist": "Beach House",
     "album": "Teen Dream",
@@ -21,11 +28,11 @@
     "url": "https://open.spotify.com/track/2OzhQlSqBEmt7hmkYxfT6m"
   },
   {
-    "title": "I Saw Your Face",
-    "artist": "Malcolm Todd",
-    "album": "I Saw Your Face",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e021e0d253b26e17c0b059471dc",
-    "url": "https://open.spotify.com/track/3cLBx0lEWPKSM99hx5RVcx"
+    "title": "Back To Me",
+    "artist": "The Marías",
+    "album": "Back To Me",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a66ab2cbaebcc84ddd45a078",
+    "url": "https://open.spotify.com/track/4E0P1xs3JNmsNr5c5nFTZJ"
   },
   {
     "title": "Girl You Loud",
@@ -33,12 +40,5 @@
     "album": "Fan of A Fan The Album (Expanded Edition)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02aee727756d5fec0de96dc6d9",
     "url": "https://open.spotify.com/track/6dRVOzSxLqRdqUjc9mctGg"
-  },
-  {
-    "title": "Back To Me",
-    "artist": "The Marías",
-    "album": "Back To Me",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a66ab2cbaebcc84ddd45a078",
-    "url": "https://open.spotify.com/track/4E0P1xs3JNmsNr5c5nFTZJ"
   }
 ]
