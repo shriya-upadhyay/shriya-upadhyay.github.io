@@ -21,6 +21,13 @@
     "url": "https://open.spotify.com/track/2aydv0bsXbIZg3Sk2S6u86"
   },
   {
+    "title": "theclubrock",
+    "artist": "Benny Bellson",
+    "album": "theclubrock",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0247ee9ddc42e3f0515f0b0a1c",
+    "url": "https://open.spotify.com/track/31SF2unE1SZ51m4O11isG9"
+  },
+  {
     "title": "Spitting Off the Edge of the World",
     "artist": "Yeah Yeah Yeahs, Perfume Genius",
     "album": "Cool It Down",
@@ -28,17 +35,10 @@
     "url": "https://open.spotify.com/track/0JX23XA8E7aN1Chj32kgVn"
   },
   {
-    "title": "Fortnight (feat. Post Malone)",
-    "artist": "Taylor Swift, Post Malone",
-    "album": "THE TORTURED POETS DEPARTMENT",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
-    "url": "https://open.spotify.com/track/2OzhQlSqBEmt7hmkYxfT6m"
-  },
-  {
-    "title": "theclubrock",
-    "artist": "Benny Bellson",
-    "album": "theclubrock",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2c0287f640d758230105d20",
-    "url": "https://open.spotify.com/track/5yGNn9CoHbAaCM5OkIYc8E"
+    "title": "Go Away",
+    "artist": "Weezer, Best Coast",
+    "album": "Everything Will Be Alright In The End",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02e7d13eb0e3c1032e4f8dfc93",
+    "url": "https://open.spotify.com/track/1O9D7P7Z1wMJXW19zTXrXi"
   }
 ]
