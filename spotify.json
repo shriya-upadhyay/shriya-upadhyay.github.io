@@ -1,17 +1,17 @@
 [
   {
-    "title": "Help I'm Alive",
-    "artist": "Metric",
-    "album": "Fantasies",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0280b25efe77045baa9bffd7e1",
-    "url": "https://open.spotify.com/track/0cahtHEywK64NSWqm2SDTi"
-  },
-  {
     "title": "I Saw Your Face",
     "artist": "Malcolm Todd",
     "album": "I Saw Your Face",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e021e0d253b26e17c0b059471dc",
     "url": "https://open.spotify.com/track/3cLBx0lEWPKSM99hx5RVcx"
+  },
+  {
+    "title": "Help I'm Alive",
+    "artist": "Metric",
+    "album": "Fantasies",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0280b25efe77045baa9bffd7e1",
+    "url": "https://open.spotify.com/track/0cahtHEywK64NSWqm2SDTi"
   },
   {
     "title": "Take Care",
@@ -21,11 +21,11 @@
     "url": "https://open.spotify.com/track/2aydv0bsXbIZg3Sk2S6u86"
   },
   {
-    "title": "Spitting Off the Edge of the World",
-    "artist": "Yeah Yeah Yeahs, Perfume Genius",
-    "album": "Cool It Down",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02667ca33e4b6d8e74b17a6529",
-    "url": "https://open.spotify.com/track/0JX23XA8E7aN1Chj32kgVn"
+    "title": "the cure",
+    "artist": "Olivia Rodrigo",
+    "album": "the cure",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0279e480cbab8c7b86d277841a",
+    "url": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96"
   },
   {
     "title": "theclubrock",
@@ -35,10 +35,10 @@
     "url": "https://open.spotify.com/track/31SF2unE1SZ51m4O11isG9"
   },
   {
-    "title": "Go Away",
-    "artist": "Weezer, Best Coast",
-    "album": "Everything Will Be Alright In The End",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02e7d13eb0e3c1032e4f8dfc93",
-    "url": "https://open.spotify.com/track/1O9D7P7Z1wMJXW19zTXrXi"
+    "title": "Homewrecker",
+    "artist": "sombr",
+    "album": "Homewrecker",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
+    "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z"
   }
 ]
