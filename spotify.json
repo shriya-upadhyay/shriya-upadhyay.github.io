@@ -14,13 +14,6 @@
     "url": "https://open.spotify.com/track/2aydv0bsXbIZg3Sk2S6u86"
   },
   {
-    "title": "the cure",
-    "artist": "Olivia Rodrigo",
-    "album": "the cure",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0279e480cbab8c7b86d277841a",
-    "url": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96"
-  },
-  {
     "title": "OMG",
     "artist": "Suki Waterhouse",
     "album": "Memoir of a Sparklemuffin",
@@ -28,17 +21,24 @@
     "url": "https://open.spotify.com/track/5vYjTN8d0DZ2SosbKSx5Nj"
   },
   {
-    "title": "theclubrock",
-    "artist": "apoloqy",
-    "album": "theclubrock",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e026ac3e8e2436a06186cde4e13",
-    "url": "https://open.spotify.com/track/42U2CwbDAqaQFs82k7DZfj"
+    "title": "the cure",
+    "artist": "Olivia Rodrigo",
+    "album": "the cure",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0279e480cbab8c7b86d277841a",
+    "url": "https://open.spotify.com/track/4EoJ151oQ5jY48z4RhSE96"
   },
   {
-    "title": "Spitting Off the Edge of the World",
-    "artist": "Yeah Yeah Yeahs, Perfume Genius",
-    "album": "Cool It Down",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02667ca33e4b6d8e74b17a6529",
-    "url": "https://open.spotify.com/track/0JX23XA8E7aN1Chj32kgVn"
+    "title": "theclubrock",
+    "artist": "Benny Bellson",
+    "album": "On and On",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02cafb447d0c55b781f1ca293a",
+    "url": "https://open.spotify.com/track/3uT5YNolBCmNFrWT9mk2BR"
+  },
+  {
+    "title": "Under Pressure - Remastered 2011",
+    "artist": "Queen, David Bowie",
+    "album": "Hot Space (2011 Remaster)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02d254ca497999ae980a5a38c5",
+    "url": "https://open.spotify.com/track/2fuCquhmrzHpu5xcA1ci9x"
   }
 ]
