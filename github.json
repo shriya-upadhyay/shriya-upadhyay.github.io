@@ -1,45 +1,6 @@
 {
-  "totalContributions": 354,
+  "totalContributions": 379,
   "weeks": [
-    {
-      "days": [
-        {
-          "date": "2025-06-01",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-06-02",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-06-03",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-06-04",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-06-05",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-06-06",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-06-07",
-          "count": 0,
-          "level": 0
-        }
-      ]
-    },
     {
       "days": [
         {
@@ -411,7 +372,7 @@
         {
           "date": "2025-08-13",
           "count": 10,
-          "level": 4
+          "level": 3
         },
         {
           "date": "2025-08-14",
@@ -435,7 +396,7 @@
         {
           "date": "2025-08-17",
           "count": 11,
-          "level": 4
+          "level": 3
         },
         {
           "date": "2025-08-18",
@@ -1030,7 +991,7 @@
         {
           "date": "2025-12-02",
           "count": 7,
-          "level": 3
+          "level": 2
         },
         {
           "date": "2025-12-03",
@@ -2043,26 +2004,35 @@
         },
         {
           "date": "2026-06-02",
-          "count": 6,
-          "level": 2
+          "count": 8,
+          "level": 3
         },
         {
           "date": "2026-06-03",
-          "count": 1,
-          "level": 1
+          "count": 4,
+          "level": 2
         },
         {
           "date": "2026-06-04",
-          "count": 1,
-          "level": 1
+          "count": 5,
+          "level": 2
         },
         {
           "date": "2026-06-05",
-          "count": 1,
+          "count": 2,
           "level": 1
         },
         {
           "date": "2026-06-06",
+          "count": 15,
+          "level": 4
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "2026-06-07",
           "count": 0,
           "level": 0
         }
