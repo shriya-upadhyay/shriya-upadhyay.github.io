@@ -18,7 +18,7 @@ function Leisure() {
                     <h2 className="activity_title">Tennis</h2>
                     <div className="content">
                         <p>
-                            I&apos;ve been playing since I was 11. Competed through high school, mostly doubles, and my twin sister and I had an all-state ranked pair. We were ranked all-state in my junior year of high school. I don&apos;t play competitively anymore, but I still enjoy spending a few morning or weekend hours hitting the ball around.
+                            I&apos;ve been playing since I was 11. Competed through high school, mostly doubles, and my twin sister and I had an all-state ranked pair. I don&apos;t play competitively anymore, but I still enjoy spending a few morning or weekend hours hitting the ball around.
                         </p>
                         <div className="image-grid">
                             <img className="activity-img" src={shriya_tennis} alt="Shriya playing tennis" />
