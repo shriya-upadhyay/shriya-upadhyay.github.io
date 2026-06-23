@@ -4,6 +4,12 @@ import GitHubGraph from '../components/GitHubGraph';
 
 const projects = [
     {
+        title: "Covalence",
+        description: "An agentic, bi-directional system that matches patients to clinical trials with traceable reasoning. Placed in Top 10 at Nucleate BioHack at NY Tech Week 2026.",
+        tags: ["Agentic", "Biotech", "Healthcare AI", "Python", "Streamlit"]
+
+    },
+    {
         title: "Meridian",
         description: "Built a private cross-border settlement app on Canton Network where senders, recipients, and regulators each see a completely different slice of the same transaction",
         tags: ["Web3", "DAML", "Canton Network", "React.js", "TypeScript"],
