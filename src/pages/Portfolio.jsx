@@ -6,7 +6,8 @@ const projects = [
     {
         title: "Covalence",
         description: "An agentic, bi-directional system that matches patients to clinical trials with traceable reasoning. Placed in Top 10 at Nucleate BioHack at NY Tech Week 2026.",
-        tags: ["Agentic", "Biotech", "Healthcare AI", "Python", "Streamlit"]
+        tags: ["Agentic AI", "Biotech", "Healthcare AI", "Python", "Streamlit"],
+        url: "https://covalence-dt6amwi4qrpyimhdznpmke.streamlit.app/"
 
     },
     {
