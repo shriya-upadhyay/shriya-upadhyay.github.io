@@ -7,13 +7,6 @@
     "url": "https://open.spotify.com/track/5vYjTN8d0DZ2SosbKSx5Nj"
   },
   {
-    "title": "the cure",
-    "artist": "Olivia Rodrigo",
-    "album": "you seem pretty sad for a girl so in love",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-    "url": "https://open.spotify.com/track/55pBIZO1cqoldeqpp5WR7H"
-  },
-  {
     "title": "I Saw Your Face",
     "artist": "Malcolm Todd",
     "album": "Do That Again",
@@ -21,11 +14,11 @@
     "url": "https://open.spotify.com/track/3B3eD9Mo22YTke9AuOirzn"
   },
   {
-    "title": "Achyutam Keshavam by Alka Yagnik - From \"Achyutam Keshavam By Alka Yagnik - Zee Music Devotional\"",
-    "artist": "Sanjeev Chaturvedi, Alka Yagnik",
-    "album": "Achyutam Keshavam by Alka Yagnik (From \"Achyutam Keshavam By Alka Yagnik - Zee Music Devotional\")",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02efd9fd43ac53b381173eba73",
-    "url": "https://open.spotify.com/track/5AAK4euoKN7aPw5t5h8WkM"
+    "title": "the cure",
+    "artist": "Olivia Rodrigo",
+    "album": "you seem pretty sad for a girl so in love",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
+    "url": "https://open.spotify.com/track/55pBIZO1cqoldeqpp5WR7H"
   },
   {
     "title": "Mac",
@@ -40,5 +33,12 @@
     "album": "Hot Space (2011 Remaster)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02d254ca497999ae980a5a38c5",
     "url": "https://open.spotify.com/track/2fuCquhmrzHpu5xcA1ci9x"
+  },
+  {
+    "title": "theclubrock",
+    "artist": "Benny Bellson",
+    "album": "theclubrock",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0210442877394f30e29f6c9c9e",
+    "url": "https://open.spotify.com/track/31SF2unE1SZ51m4O11isG9"
   }
 ]
