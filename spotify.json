@@ -14,13 +14,6 @@
     "url": "https://open.spotify.com/track/3B3eD9Mo22YTke9AuOirzn"
   },
   {
-    "title": "the cure",
-    "artist": "Olivia Rodrigo",
-    "album": "you seem pretty sad for a girl so in love",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-    "url": "https://open.spotify.com/track/55pBIZO1cqoldeqpp5WR7H"
-  },
-  {
     "title": "Mac",
     "artist": "Malcolm Todd",
     "album": "Shower Shoes",
@@ -40,5 +33,12 @@
     "album": "theclubrock",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e0210442877394f30e29f6c9c9e",
     "url": "https://open.spotify.com/track/31SF2unE1SZ51m4O11isG9"
+  },
+  {
+    "title": "Grove St. Party (feat. Kebo Gotti)",
+    "artist": "Waka Flocka Flame, Kebo Gotti",
+    "album": "Flockaveli",
+    "albumArt": "https://i.scdn.co/image/f9cc2e5d29b97a944a08331834c620a44da47e08",
+    "url": "https://open.spotify.com/track/2e9EZ2V5QGGZPMJacO3y0Y"
   }
 ]
