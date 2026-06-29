@@ -4,6 +4,12 @@ import GitHubGraph from '../components/GitHubGraph';
 
 const projects = [
     {
+        title: "Down",
+        description: "Built a web app that turns the TikToks and Reels friends send into real plans. It extracts each activity into a shared group wishlist, lets everyone vote \"I'm in\" or \"pass\" with a live tally, and coordinates a time the group is free. Shipped as an installable PWA.",
+        tags: ["Next.js", "TypeScript", "Supabase", "Llama 3.3", "PWA"],
+        url: "https://whosdown.vercel.app"
+    },
+    {
         title: "Covalence",
         description: "An agentic, bi-directional system that matches patients to clinical trials with traceable reasoning. Placed in Top 10 at Nucleate BioHack at NY Tech Week 2026.",
         tags: ["Agentic AI", "Biotech", "Healthcare AI", "Python", "Streamlit"],
