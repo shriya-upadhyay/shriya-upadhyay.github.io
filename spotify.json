@@ -1,31 +1,10 @@
 [
   {
-    "title": "OMG",
-    "artist": "Suki Waterhouse",
-    "album": "Memoir of a Sparklemuffin",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a9b6153a531deea48b17b26b",
-    "url": "https://open.spotify.com/track/5vYjTN8d0DZ2SosbKSx5Nj"
-  },
-  {
     "title": "Wonderwall - Remastered",
     "artist": "Oasis",
     "album": "(What's The Story) Morning Glory? [Remastered]",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e0285e5dcc05cc216a10f141480",
     "url": "https://open.spotify.com/track/5qqabIl2vWzo9ApSC317sa"
-  },
-  {
-    "title": "theclubrock",
-    "artist": "Benny Bellson",
-    "album": "theclubrock",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0210442877394f30e29f6c9c9e",
-    "url": "https://open.spotify.com/track/31SF2unE1SZ51m4O11isG9"
-  },
-  {
-    "title": "I Saw Your Face",
-    "artist": "Malcolm Todd",
-    "album": "Do That Again",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e026ad1bfc5a6102f8e926a8c5f",
-    "url": "https://open.spotify.com/track/3B3eD9Mo22YTke9AuOirzn"
   },
   {
     "title": "Mac",
@@ -35,10 +14,31 @@
     "url": "https://open.spotify.com/track/6h3trn8FzeCUdUy99kYZwY"
   },
   {
+    "title": "OMG",
+    "artist": "Suki Waterhouse",
+    "album": "Memoir of a Sparklemuffin",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a9b6153a531deea48b17b26b",
+    "url": "https://open.spotify.com/track/5vYjTN8d0DZ2SosbKSx5Nj"
+  },
+  {
     "title": "Nice Guys",
     "artist": "Beach Bunny",
     "album": "Blame Game",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e020693f6e8e65a101e9638d2da",
     "url": "https://open.spotify.com/track/6sDO1hkP0gzkp5IxSW8QDf"
+  },
+  {
+    "title": "Black Friday",
+    "artist": "Tom Odell",
+    "album": "Black Friday",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e021b0de2abcdc89c8dc76c917e",
+    "url": "https://open.spotify.com/track/0uvagCBJC0ClsR11W10T0Y"
+  },
+  {
+    "title": "Cover Me Up",
+    "artist": "Morgan Wallen",
+    "album": "Dangerous: The Double Album",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02f26e16c256f7042d8f6a814b",
+    "url": "https://open.spotify.com/track/5AQNqdpl6SEV9rAHWy7U9w"
   }
 ]
