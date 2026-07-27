@@ -21,13 +21,6 @@
     "url": "https://open.spotify.com/track/5KjJYrM3UXmvhqtQntrsJM"
   },
   {
-    "title": "Earrings",
-    "artist": "Malcolm Todd",
-    "album": "Sweet Boy",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e022c1f34ecc1929fb59908aad1",
-    "url": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ"
-  },
-  {
     "title": "Ruby Fields",
     "artist": "Sarah and the Sundays",
     "album": "So You're Mad About the Cups",
@@ -40,5 +33,12 @@
     "album": "Midnights",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
     "url": "https://open.spotify.com/track/4D7BCuvgdJlYvlX5WlN54t"
+  },
+  {
+    "title": "Earrings",
+    "artist": "Malcolm Todd",
+    "album": "Sweet Boy",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e022c1f34ecc1929fb59908aad1",
+    "url": "https://open.spotify.com/track/0eAuGrXyGFYwur9ARUe7LJ"
   }
 ]
