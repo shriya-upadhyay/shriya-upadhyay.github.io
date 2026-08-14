@@ -21,13 +21,6 @@
     "url": "https://open.spotify.com/track/1JMvajCm93H7ppK5sboii0"
   },
   {
-    "title": "Hey Jude",
-    "artist": "The Beatles",
-    "album": "Love",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0230503dbc30e621c96913379b",
-    "url": "https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU"
-  },
-  {
     "title": "I'll Believe in Anything",
     "artist": "Wolf Parade",
     "album": "Apologies to the Queen Mary",
@@ -40,5 +33,12 @@
     "album": "Soft Machine",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e029e1466e4e4b559227cc5b689",
     "url": "https://open.spotify.com/track/7yHRmaBkHKXKJmS1xMzicZ"
+  },
+  {
+    "title": "You're On Your Own, Kid",
+    "artist": "Taylor Swift",
+    "album": "Midnights",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
+    "url": "https://open.spotify.com/track/4D7BCuvgdJlYvlX5WlN54t"
   }
 ]
