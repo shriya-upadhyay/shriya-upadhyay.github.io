@@ -7,6 +7,9 @@ import shriya_tennis3 from '../assets/shriya_tennis3.jpg';
 import foodpic1 from '../assets/foodpic1.jpg';
 import foodpic2 from '../assets/foodpic2.png';
 import foodpic3 from '../assets/foodpic3.png';
+import travelpic1 from '../assets/travelpic1.jpg';
+import travelpic2 from '../assets/travelpic2.jpg';
+import travelpic3 from '../assets/travelpic3.jpg';
 
 function Leisure() {
     return (
@@ -58,6 +61,11 @@ function Leisure() {
                         <p>
                             I plan trips the same way I plan most things: strong opinions, loose itinerary. My favorite cities are the ones you can walk through for hours. Good food, good coffee, something unexpected around every corner. Always already planning the next one.
                         </p>
+                        <div className="image-grid">
+                            <img className="activity-img" src={travelpic1} alt="Travel" />
+                            <img className="activity-img" src={travelpic2} alt="Travel" />
+                            <img className="activity-img" src={travelpic3} alt="Travel" />
+                        </div>
                     </div>
                 </div>
 
