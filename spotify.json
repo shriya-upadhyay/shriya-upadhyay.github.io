@@ -14,13 +14,6 @@
     "url": "https://open.spotify.com/track/7zxikeAavSLQVGocbK2nau"
   },
   {
-    "title": "26",
-    "artist": "Paramore",
-    "album": "After Laughter",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02dbd83e179619408e5d05cc99",
-    "url": "https://open.spotify.com/track/2EcQY09CYgJ1qk6H1qZf8h"
-  },
-  {
     "title": "Merry Christmas, Please Don't Call",
     "artist": "Bleachers",
     "album": "Merry Christmas, Please Don't Call",
@@ -33,6 +26,13 @@
     "album": "Bohemian Rhapsody (The Original Soundtrack)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e020cb397024b7a1185c070d65a",
     "url": "https://open.spotify.com/track/5lmMeytpSOBTzFYRS32fwA"
+  },
+  {
+    "title": "26",
+    "artist": "Paramore",
+    "album": "After Laughter",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02dbd83e179619408e5d05cc99",
+    "url": "https://open.spotify.com/track/2EcQY09CYgJ1qk6H1qZf8h"
   },
   {
     "title": "Unslept",
