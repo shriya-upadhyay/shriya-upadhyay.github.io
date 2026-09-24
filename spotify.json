@@ -21,13 +21,6 @@
     "url": "https://open.spotify.com/track/57iDDD9N9tTWe75x6qhStw"
   },
   {
-    "title": "I Want To Break Free",
-    "artist": "Queen",
-    "album": "Bohemian Rhapsody (The Original Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e020cb397024b7a1185c070d65a",
-    "url": "https://open.spotify.com/track/5lmMeytpSOBTzFYRS32fwA"
-  },
-  {
     "title": "I'll Believe in Anything",
     "artist": "Wolf Parade",
     "album": "Apologies to the Queen Mary",
@@ -40,5 +33,12 @@
     "album": "Spotify Singles",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02a5b8c651627eb5f17c8c7db0",
     "url": "https://open.spotify.com/track/2lVPHHSn8elKFEf1d6evFG"
+  },
+  {
+    "title": "I Want To Break Free",
+    "artist": "Queen",
+    "album": "Bohemian Rhapsody (The Original Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e020cb397024b7a1185c070d65a",
+    "url": "https://open.spotify.com/track/5lmMeytpSOBTzFYRS32fwA"
   }
 ]
