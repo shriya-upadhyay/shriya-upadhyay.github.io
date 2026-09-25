@@ -14,13 +14,6 @@
     "url": "https://open.spotify.com/track/7yHRmaBkHKXKJmS1xMzicZ"
   },
   {
-    "title": "Bitter Sweet Symphony - Remastered 2016",
-    "artist": "The Verve",
-    "album": "Urban Hymns (Remastered 2016)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02707d13d3f87652e737e94d45",
-    "url": "https://open.spotify.com/track/57iDDD9N9tTWe75x6qhStw"
-  },
-  {
     "title": "I'll Believe in Anything",
     "artist": "Wolf Parade",
     "album": "Apologies to the Queen Mary",
@@ -28,11 +21,11 @@
     "url": "https://open.spotify.com/track/7zxikeAavSLQVGocbK2nau"
   },
   {
-    "title": "Summer's End - Spotify Singles",
-    "artist": "Phoebe Bridgers, Maria Taylor",
-    "album": "Spotify Singles",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a5b8c651627eb5f17c8c7db0",
-    "url": "https://open.spotify.com/track/2lVPHHSn8elKFEf1d6evFG"
+    "title": "Bitter Sweet Symphony - Remastered 2016",
+    "artist": "The Verve",
+    "album": "Urban Hymns (Remastered 2016)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02707d13d3f87652e737e94d45",
+    "url": "https://open.spotify.com/track/57iDDD9N9tTWe75x6qhStw"
   },
   {
     "title": "I Want To Break Free",
@@ -40,5 +33,12 @@
     "album": "Bohemian Rhapsody (The Original Soundtrack)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e020cb397024b7a1185c070d65a",
     "url": "https://open.spotify.com/track/5lmMeytpSOBTzFYRS32fwA"
+  },
+  {
+    "title": "Summer's End - Spotify Singles",
+    "artist": "Phoebe Bridgers, Maria Taylor",
+    "album": "Spotify Singles",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a5b8c651627eb5f17c8c7db0",
+    "url": "https://open.spotify.com/track/2lVPHHSn8elKFEf1d6evFG"
   }
 ]
