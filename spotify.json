@@ -14,6 +14,13 @@
     "url": "https://open.spotify.com/track/7zxikeAavSLQVGocbK2nau"
   },
   {
+    "title": "Housewife",
+    "artist": "Tate McRae",
+    "album": "Housewife",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e027c6236a76fbcee4f1b8ace08",
+    "url": "https://open.spotify.com/track/2sFepQNyl1WjpROruP8bJ0"
+  },
+  {
     "title": "L'Amour toujours (Organ Orchestral)",
     "artist": "Bankai, Orchestral",
     "album": "L'Amour toujours (Organ Orchestral)",
@@ -33,12 +40,5 @@
     "album": "Soft Machine",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e029e1466e4e4b559227cc5b689",
     "url": "https://open.spotify.com/track/7yHRmaBkHKXKJmS1xMzicZ"
-  },
-  {
-    "title": "These Words",
-    "artist": "Natasha Bedingfield",
-    "album": "Unwritten",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02b337e1ca6629a53c66a3b0d4",
-    "url": "https://open.spotify.com/track/6MFQeWtk7kxWGydnJB2y36"
   }
 ]
