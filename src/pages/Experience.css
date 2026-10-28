@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     background-color: var(--bg);
     padding-bottom: 4rem;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s var(--ease);
 }
 
 #title {
@@ -34,11 +34,12 @@ body {
     border: 1px solid var(--border);
     border-radius: 16px;
     padding: 1.5rem 2rem;
-    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: box-shadow 0.3s var(--ease), background-color 0.3s var(--ease), transform 0.3s var(--ease);
 }
 
 .exp-card:hover {
     box-shadow: 0 6px 20px var(--shadow-sm);
+    transform: translateY(-3px);
 }
 
 .exp-header {

@@ -2,7 +2,7 @@
     min-height: 100vh;
     background-color: var(--bg);
     padding-bottom: 4rem;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s var(--ease);
 }
 
 .Writing #title {
@@ -69,7 +69,7 @@
     font-weight: 600;
     font-size: 0.9rem;
     text-decoration: none;
-    transition: background-color 0.2s ease, transform 0.2s ease;
+    transition: background-color 0.2s var(--ease), transform 0.2s var(--ease);
 }
 
 .writing-medium-link:hover {
@@ -92,7 +92,7 @@
     border-radius: 16px;
     overflow: hidden;
     text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
 }
 
 .writing-card:hover {
@@ -110,7 +110,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.4s ease;
+    transition: transform 0.4s var(--ease);
 }
 
 .writing-card:hover .writing-thumbnail img {
@@ -152,7 +152,7 @@
     color: var(--accent-green);
     font-weight: 600;
     margin-top: auto;
-    transition: color 0.2s ease;
+    transition: color 0.2s var(--ease);
 }
 
 .writing-card:hover .writing-read-more {

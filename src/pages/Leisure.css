@@ -1,7 +1,7 @@
 .Leisure {
     background-color: var(--bg);
     min-height: 100vh;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s var(--ease);
 }
 
 .Leisure #title {
@@ -25,7 +25,7 @@
     padding: 2rem;
     border: 1px solid var(--border);
     box-shadow: 0 4px 16px var(--shadow-sm);
-    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: box-shadow 0.3s var(--ease), background-color 0.3s var(--ease);
 }
 
 .Activity:hover {
@@ -59,7 +59,7 @@
     object-fit: cover;
     border-radius: 12px;
     display: block;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s var(--ease);
 }
 
 .activity-img:hover {
