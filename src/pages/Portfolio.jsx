@@ -17,6 +17,12 @@ const projects = [
 
     },
     {
+        title: "Canopy",
+        description: "Built an agent-to-agent marketplace at the Raingentic Commerce Hackathon where a buyer agent authorizes a spending ceiling and payment settles in proportion to how accurate the strategy turned out to be.",
+        tags: ["Next.js", "TypeScript", "Rain", "Monad", "x402"],
+        url: "https://github.com/shriya-upadhyay/canopy"
+    },
+    {
         title: "Meridian",
         description: "Built a private cross-border settlement app on Canton Network where senders, recipients, and regulators each see a completely different slice of the same transaction",
         tags: ["Web3", "DAML", "Canton Network", "React.js", "TypeScript"],
@@ -30,7 +36,7 @@ const projects = [
     },
     {
         title: "Tea On-Chain",
-        description: "Built privacy-preserving women’s safety platform using zero-knowledge proofs for anonymous identity verification",
+        description: "Built privacy-preserving women’s safety platform using zero-knowledge proofs for anonymous identity verification. Won Fern's Best Consumer App at ETHGlobal NYC.",
         tags: ["Web3", "Solidity", "Next.js", "Typescript", "ZK-SNARKS"],
         url: "https://github.com/shriya-upadhyay/tea-on-chain"
     },

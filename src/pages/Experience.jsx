@@ -10,6 +10,16 @@ function Experience() {
                     <div className="exp-header">
                         <div className="exp-left">
                             <h3 className="exp-company">JPMorgan Chase</h3>
+                            <h4 className="exp-title">Software Engineer</h4>
+                        </div>
+                        <h4 className="exp-date">July 2026 – Present</h4>
+                    </div>
+                </div>
+
+                <div className="exp-card">
+                    <div className="exp-header">
+                        <div className="exp-left">
+                            <h3 className="exp-company">JPMorgan Chase</h3>
                             <h4 className="exp-title">Software Engineer Intern</h4>
                         </div>
                         <h4 className="exp-date">June 2025 – August 2025</h4>
@@ -25,12 +35,25 @@ function Experience() {
                             <h3 className="exp-company">Blockchain at USC</h3>
                             <h4 className="exp-title">Head of Engineering</h4>
                         </div>
-                        <h4 className="exp-date">September 2023 – January 2026</h4>
+                        <h4 className="exp-date">September 2023 – December 2025</h4>
                     </div>
                     <ul className="exp-bullets">
                         <li>Led the engineering team for one of USC's largest technical student organizations</li>
                         <li>Ran Web3 developer workshops and helped grow the technical community on campus</li>
                         <li>Co-organized the Southern California Blockchain Conference (SCBC) — a multi-track annual conference and hackathon in Los Angeles</li>
+                    </ul>
+                </div>
+
+                <div className="exp-card">
+                    <div className="exp-header">
+                        <div className="exp-left">
+                            <h3 className="exp-company">Project RISHI at USC</h3>
+                            <h4 className="exp-title">Team Lead</h4>
+                        </div>
+                        <h4 className="exp-date">February 2024 – December 2025</h4>
+                    </div>
+                    <ul className="exp-bullets">
+                        <li>Led volunteer initiatives expanding access to women&apos;s empowerment in rural India, coordinating with local NGOs and schools</li>
                     </ul>
                 </div>
 
@@ -54,7 +77,7 @@ function Experience() {
                             <h3 className="exp-company">Center for Undergraduate Research in Viterbi Engineering – Interaction Lab</h3>
                             <h4 className="exp-title">CURVE Fellowship Researcher</h4>
                         </div>
-                        <h4 className="exp-date">August 2022 – January 2026</h4>
+                        <h4 className="exp-date">September 2022 – January 2026</h4>
                     </div>
                     <ul className="exp-bullets">
                         <li>Co-authored research on LLM-powered socially assistive robots for CBT homework support; presented at IEEE RO-MAN 2025</li>

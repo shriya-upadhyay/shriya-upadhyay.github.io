@@ -51,7 +51,7 @@ function Writing() {
                         {error ? "Couldn't load articles right now." : "No articles yet — check back soon."}
                     </p>
                     <a
-                        href="https://medium.com/@shriyau19"
+                        href="https://medium.com/@shriyaupadhyay3"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="writing-medium-link"

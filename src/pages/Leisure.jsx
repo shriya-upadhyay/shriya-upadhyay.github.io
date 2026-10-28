@@ -42,6 +42,15 @@ function Leisure() {
                 </div>
 
                 <div className="Activity">
+                    <h2 className="activity_title">Reading</h2>
+                    <div className="content">
+                        <p>
+                            I bounce between nonfiction and witty, warm fiction. My top books of 2026 so far: <em>The Seven Husbands of Evelyn Hugo</em> by Taylor Jenkins Reid, <em>The Defining Decade</em> by Meg Jay, <em>Everything I Know About Love</em> by Dolly Alderton, and <em>Immortals of Meluha</em> by Amish Tripathi.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="Activity">
                     <h2 className="activity_title">Food</h2>
                     <div className="content">
                         <p>

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { IoMdMail } from "react-icons/io";
 import { FaLinkedin, FaBars, FaTimes, FaMedium } from "react-icons/fa";
 import { FaGithub, FaXTwitter } from "react-icons/fa6";
-import { IoPerson } from "react-icons/io5";
 import Shriya_Upadhyay_Headshot from '../assets/Shriya_Upadhyay_Headshot.png'; // Import the image
 import AboutMe from './AboutMe';
 
@@ -17,7 +16,7 @@ function Home() {
 
     const MailClick = () => {
         // Code to execute on button click
-        window.open('mailto:shriyaup@usc.edu', '_blank');
+        window.open('mailto:shriyaupadhyay3@gmail.com', '_blank');
         console.log("Mail clicked");
     };
     const LinkedinClick = () => {
@@ -33,11 +32,7 @@ function Home() {
 
     const MediumClick = () => {
         // Code to execute on button click
-        window.open('https://medium.com/@shriyau19', '_blank');
-    };
-
-    const ResumeClick = () => {
-        window.open('https://drive.google.com/file/d/17xs-iWXROwL5il0SKhN2ABy_hC00IXDE/view?usp=sharing', '_blank');
+        window.open('https://medium.com/@shriyaupadhyay3', '_blank');
     };
 
     const XClick = () => {
@@ -83,9 +78,6 @@ function Home() {
                 </button>
                 <button onClick={MediumClick} className="social-buttons">
                   <FaMedium id="medium" />
-                </button>
-                <button onClick={ResumeClick} className="social-buttons">
-                  <IoPerson id="resume" />
                 </button>
                 <button onClick={XClick} className="social-buttons">
                   <FaXTwitter id="x" />
