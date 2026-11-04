@@ -14,6 +14,13 @@
     "url": "https://open.spotify.com/track/2sFepQNyl1WjpROruP8bJ0"
   },
   {
+    "title": "Punkrocker (feat. Iggy Pop) - As featured in Superman",
+    "artist": "Teddybears, Iggy Pop",
+    "album": "Soft Machine",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e029e1466e4e4b559227cc5b689",
+    "url": "https://open.spotify.com/track/7yHRmaBkHKXKJmS1xMzicZ"
+  },
+  {
     "title": "I'll Believe in Anything",
     "artist": "Wolf Parade",
     "album": "Apologies to the Queen Mary",
@@ -33,12 +40,5 @@
     "album": "Lover",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
     "url": "https://open.spotify.com/track/12M5uqx0ZuwkpLp5rJim1a"
-  },
-  {
-    "title": "New Romantics (Taylor's Version)",
-    "artist": "Taylor Swift",
-    "album": "1989 (Taylor's Version)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e024110bfab1185fdfc9dfc2cf0",
-    "url": "https://open.spotify.com/track/2vPMoMDXxu9uX1igWZmXSG"
   }
 ]
