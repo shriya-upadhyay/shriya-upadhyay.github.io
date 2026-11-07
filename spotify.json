@@ -21,13 +21,6 @@
     "url": "https://open.spotify.com/track/7yHRmaBkHKXKJmS1xMzicZ"
   },
   {
-    "title": "I'll Believe in Anything",
-    "artist": "Wolf Parade",
-    "album": "Apologies to the Queen Mary",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e023674bf46d2590883b6adf1f8",
-    "url": "https://open.spotify.com/track/7zxikeAavSLQVGocbK2nau"
-  },
-  {
     "title": "Merry Christmas, Please Don't Call",
     "artist": "Bleachers",
     "album": "Merry Christmas, Please Don't Call",
@@ -40,5 +33,12 @@
     "album": "1989 (Taylor's Version)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e024110bfab1185fdfc9dfc2cf0",
     "url": "https://open.spotify.com/track/2vPMoMDXxu9uX1igWZmXSG"
+  },
+  {
+    "title": "Visible Distance",
+    "artist": "Universal Order Of Armageddon",
+    "album": "Universal Order of Armageddon",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0286a1375c4a2379f070930366",
+    "url": "https://open.spotify.com/track/2wtKaZldQRjimyaMRw3RG6"
   }
 ]
