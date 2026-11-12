@@ -21,13 +21,6 @@
     "url": "https://open.spotify.com/track/4UjYZS6Jbt3lee27qmiNOu"
   },
   {
-    "title": "I Saw Your Face",
-    "artist": "Malcolm Todd",
-    "album": "Do That Again",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e026ad1bfc5a6102f8e926a8c5f",
-    "url": "https://open.spotify.com/track/3B3eD9Mo22YTke9AuOirzn"
-  },
-  {
     "title": "New Romantics (Taylor's Version)",
     "artist": "Taylor Swift",
     "album": "1989 (Taylor's Version)",
@@ -40,5 +33,12 @@
     "album": "Universal Order of Armageddon",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e0286a1375c4a2379f070930366",
     "url": "https://open.spotify.com/track/2wtKaZldQRjimyaMRw3RG6"
+  },
+  {
+    "title": "I Saw Your Face",
+    "artist": "Malcolm Todd",
+    "album": "Do That Again",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e026ad1bfc5a6102f8e926a8c5f",
+    "url": "https://open.spotify.com/track/3B3eD9Mo22YTke9AuOirzn"
   }
 ]
