@@ -21,13 +21,6 @@
     "url": "https://open.spotify.com/track/3B3eD9Mo22YTke9AuOirzn"
   },
   {
-    "title": "L'Amour toujours (Organ Orchestral)",
-    "artist": "Bankai, Orchestral",
-    "album": "L'Amour toujours (Organ Orchestral)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02e961c4840873cfea6ffb8fb3",
-    "url": "https://open.spotify.com/track/4koTmnkMNCx7n3JQdrwB4w"
-  },
-  {
     "title": "Nope your too late i already died",
     "artist": "wifiskeleton, i wanna be a jack-o-lantern",
     "album": "suburban daredevil",
@@ -40,5 +33,12 @@
     "album": "1989 (Taylor's Version)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e024110bfab1185fdfc9dfc2cf0",
     "url": "https://open.spotify.com/track/2vPMoMDXxu9uX1igWZmXSG"
+  },
+  {
+    "title": "Merry Christmas, Please Don't Call",
+    "artist": "Bleachers",
+    "album": "Merry Christmas, Please Don't Call",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e027fbed05d7226834da74c652b",
+    "url": "https://open.spotify.com/track/0UOG0zUn7t8m8QcxfzR7AH"
   }
 ]
